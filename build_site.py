@@ -82,7 +82,7 @@ HEAD = """<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
 <header class="bar"><a href="index.html" class="home">Snowmoon · 雪月</a><a href="https://t.me/SnowmoonCN" class="tg" target="_blank" rel="noopener">电报群</a>
 <button class="theme" onclick="var d=document.documentElement,n=(d.dataset.theme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))==='dark'?'light':'dark';d.dataset.theme=n;try{{localStorage.setItem('theme',n)}}catch(e){{}}" aria-label="切换深浅色">◐</button></header>
 <main>"""
-FOOT = """</main><footer>原作 © Vitalik Buterin · 中文译本以 <a href="license.html">GPL v3</a> 发布 · AI 辅助翻译，修改于 {today} · <a href="https://vitalik.eth.limo/snowmoon/">英文原文</a> · <a href="snowmoon-zh-source.zip">可编辑源文本</a> · <a href="https://t.me/SnowmoonCN">电报读者群</a></footer></body></html>"""
+FOOT = """</main><footer>原作 © Vitalik Buterin · 中文译本以 <a href="license.html">GPL v3</a> 发布 · AI 辅助翻译，修改于 {today} · <a href="https://vitalik.eth.limo/snowmoon/">英文原文</a> · <a href="https://github.com/zy756/SnowmoonCN">源文本（GitHub）</a> · <a href="https://t.me/SnowmoonCN">电报读者群</a></footer></body></html>"""
 
 CSS = """
 :root { --bg:#fbfaf7; --fg:#1b1b1b; --mute:#6b6b6b; --line:#e3e0d8; --box:#f1efe9; --L:0.48; --C:0.14; }
@@ -150,7 +150,7 @@ def build():
     idx = f"""<div class="cover"><div class="t">Snowmoon</div><div class="s">雪月 · 中文译本</div><div class="a">Vitalik Buterin 著</div></div>
 <div class="note"><p>这是以太坊创始人 Vitalik Buterin 的长篇科幻小说《Snowmoon》的简体中文译本。故事设定在虚构城邦维里迪亚，涉及二次方投票、二次方资助、密码学抽签选举、零知识隐私认证等治理与技术设想。书名 Snowmoon 是书中的一个月份名（雪月）。</p>
 <p><strong>许可：</strong>原作 © Vitalik Buterin，以 GNU GPL v3 发布；本译本是原作的修改版本（翻译），同样以 GPL v3 发布，修改日期 {TODAY}。你可以自由复制、分发、修改，再分发须保持同一许可并提供可编辑源文本。</p>
-<p><strong>说明：</strong>本译本由 AI 辅助翻译，译名经统一校订，未经人工逐句审校；如与英文原文有出入，以<a href="https://vitalik.eth.limo/snowmoon/">原文</a>为准。原书中的图表以文字形式呈现；对话按角色着色，沿用原书配色。可编辑源文本见页脚。</p></div>
+<p><strong>说明：</strong>本译本由 AI 辅助翻译，译名经统一校订，未经人工逐句审校；如与英文原文有出入，以<a href="https://vitalik.eth.limo/snowmoon/">原文</a>为准。原书中的图表以文字形式呈现；对话按角色着色，沿用原书配色。可编辑源文本见 <a href="https://github.com/zy756/SnowmoonCN">GitHub</a>。</p></div>
 <div class="join"><a href="https://t.me/SnowmoonCN" target="_blank" rel="noopener">💬 加入电报读者群 · 讨论剧情、提交勘误</a></div>
 <h2>目录</h2><ul class="toc">{toc}</ul>"""
     (OUT / "index.html").write_text(page("Snowmoon · 雪月 中文版", idx), encoding="utf-8")
