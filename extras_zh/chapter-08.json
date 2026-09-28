@@ -1,0 +1,92 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Meldan, Veridia·3724 Rainmoon 26"
+    ],
+    "lines_zh": [
+      "梅尔丹，维里迪亚 · 3724 年雨月 26 日"
+    ]
+  },
+  {
+    "before": 2,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Seila ｜ → ｜ [5 images] ｜ 34125"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "塞拉 ｜ → ｜ [5 张图片] ｜ 34125"
+    ]
+  },
+  {
+    "before": 10,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Mov ｜ → ｜ Remember that your trial in today is not just about knowledge. It's also about making sure the senators like you. ｜ 34576"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "莫夫 ｜ → ｜ 记住，你今天的考核不光是考知识，还得让参议员们喜欢你。 ｜ 34576"
+    ]
+  },
+  {
+    "before": 91,
+    "kind": "device",
+    "lines": [
+      "Acceptance vote: Gladias"
+    ],
+    "lines_zh": [
+      "录取投票：格拉迪亚斯"
+    ]
+  },
+  {
+    "before": 94,
+    "kind": "device",
+    "lines": [
+      "Acceptance vote: Gladias"
+    ],
+    "lines_zh": [
+      "录取投票：格拉迪亚斯"
+    ]
+  },
+  {
+    "before": 96,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Vil ｜ → ｜ Sorry to bother you, but it's about Lily. She just failed a test in civics class. I think she would benefit from seeing you and Seila. ｜ 45183"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "维尔 ｜ → ｜ 抱歉打扰你，是莉莉的事。她刚在公民课上考试不及格。我觉得她要是能见见你和塞拉，会有好处。 ｜ 45183"
+    ]
+  },
+  {
+    "before": 99,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Vil ｜ → ｜ Did you at least get accepted? ｜ 45501"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "维尔 ｜ → ｜ 你至少被录取了吧？ ｜ 45501"
+    ]
+  },
+  {
+    "before": 116,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Mov ｜ → ｜ [call requested] ｜ 59063"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "莫夫 ｜ → ｜ [请求通话] ｜ 59063"
+    ]
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Meldan, Veridia·3724 Snowmoon 3"
+    ],
+    "lines_zh": [
+      "梅尔丹，维里迪亚 · 3724 年雪月 3 日"
+    ]
+  },
+  {
+    "before": 16,
+    "kind": "device",
+    "lines": [
+      "Vote on: Badra St #1103",
+      "Emerald AI summary: Five-storey apartment building. Blue-grey colored.",
+      "-5 0 5"
+    ],
+    "lines_zh": [
+      "投票对象：巴德拉街 1103 号",
+      "翡翠 AI 摘要：五层公寓楼，蓝灰色。",
+      "-5 0 5"
+    ]
+  },
+  {
+    "before": 20,
+    "kind": "device",
+    "lines": [
+      "Badra St #1103",
+      "Base land tax: ｜ 1.00%",
+      "Aesthetics tax: ｜ 0.18%",
+      "Other rubric taxes: ｜ 0.33%",
+      "Total land tax: ｜ 1.51%"
+    ],
+    "lines_zh": [
+      "巴德拉街 1103 号",
+      "基础土地税： ｜ 1.00%",
+      "美学税： ｜ 0.18%",
+      "其他评分细则税： ｜ 0.33%",
+      "土地税合计： ｜ 1.51%"
+    ]
+  },
+  {
+    "before": 24,
+    "kind": "device",
+    "lines": [
+      "Clearhill Ave #980",
+      "Base land tax: ｜ 1.00%",
+      "Aesthetics tax: ｜ 0.59%",
+      "Other rubric taxes: ｜ 0.30%",
+      "Total land tax: ｜ 1.89%"
+    ],
+    "lines_zh": [
+      "清丘大道 980 号",
+      "基础土地税： ｜ 1.00%",
+      "美学税： ｜ 0.59%",
+      "其他评分细则税： ｜ 0.30%",
+      "土地税合计： ｜ 1.89%"
+    ]
+  },
+  {
+    "before": 26,
+    "kind": "device",
+    "lines": [
+      "Vote on: Badra St #1103",
+      "Emerald AI summary: Five-storey apartment building. Blue-grey colored.",
+      "-5 0 5"
+    ],
+    "lines_zh": [
+      "投票对象：巴德拉街 1103 号",
+      "翡翠 AI 摘要：五层公寓楼，蓝灰色。",
+      "-5 0 5"
+    ]
+  },
+  {
+    "before": 56,
+    "kind": "device",
+    "lines": [
+      "Tier ｜ Criteria ｜ Tax rate",
+      "1",
+      "0%",
+      "2",
+      "10%",
+      "3",
+      "20%",
+      "4",
+      "30%",
+      "5",
+      "40%",
+      "Tax rates increased by 2.5x on proceeds from Veridian national Quadratic Funding and Graph Funding."
+    ],
+    "lines_zh": [
+      "等级 ｜ 标准 ｜ 税率",
+      "1",
+      "0%",
+      "2",
+      "10%",
+      "3",
+      "20%",
+      "4",
+      "30%",
+      "5",
+      "40%",
+      "来自维里迪亚国家二次方资助和图谱资助的收入，税率提高至 2.5 倍。"
+    ]
+  },
+  {
+    "before": 67,
+    "kind": "device",
+    "lines": [
+      "50",
+      "60",
+      "70",
+      "80",
+      "90",
+      "100",
+      "3722",
+      "3723",
+      "3724",
+      "92"
+    ],
+    "lines_zh": [
+      "50",
+      "60",
+      "70",
+      "80",
+      "90",
+      "100",
+      "3722",
+      "3723",
+      "3724",
+      "92"
+    ]
+  },
+  {
+    "before": 136,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Anonymous",
+      "Rep score ≥ 200 Verified ✓ ｜ → ｜ I saw you at the concert, I know that you are in the Order. ｜ 60259"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "匿名",
+      "声誉分 ≥ 200 已验证 ✓ ｜ → ｜ 我在音乐会上看见你了，我知道你是舵手会的人。 ｜ 60259"
+    ]
+  },
+  {
+    "before": 137,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Anonymous",
+      "Rep score ≥ 200 Verified ✓ ｜ → ｜ Don't worry, I'm not intending to report you for the bounty. But I do have a request that I would like to make. ｜ 60266"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "匿名",
+      "声誉分 ≥ 200 已验证 ✓ ｜ → ｜ 别担心，我不打算为了赏金去举报你。不过我确实有个请求想提。 ｜ 60266"
+    ]
+  }
+]

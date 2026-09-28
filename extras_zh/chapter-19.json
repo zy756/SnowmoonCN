@@ -1,0 +1,206 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Pafogai Du, Dzego·3724 Grapetime 15"
+    ],
+    "lines_zh": [
+      "帕佛盖都，泽戈 · 3724 年葡萄月 15 日"
+    ]
+  },
+  {
+    "before": 6,
+    "kind": "device",
+    "lines": [
+      "Air",
+      "CO2 ｜ 994",
+      "PM2.5 ｜ 30.1",
+      "Devices",
+      "Attested ✓ ｜ 21",
+      "Unknown, increased risk! ｜ 4"
+    ],
+    "lines_zh": [
+      "空气",
+      "CO2 ｜ 994",
+      "PM2.5 ｜ 30.1",
+      "设备",
+      "已证明 ✓ ｜ 21",
+      "未知，风险升高！ ｜ 4"
+    ]
+  },
+  {
+    "before": 10,
+    "kind": "device",
+    "lines": [
+      "ten min",
+      "cau tie zen ✓ ｜ 25",
+      "sen hu ? ｜ 0"
+    ],
+    "lines_zh": [
+      "ten min",
+      "cau tie zen ✓ ｜ 25",
+      "sen hu ? ｜ 0"
+    ]
+  },
+  {
+    "before": 11,
+    "kind": "device",
+    "lines": [
+      "gi dai",
+      "fen jan ten lai ｜ 16",
+      "mo fan min jan ｜ 1",
+      "mo fan lai ｜ 4",
+      "kun gau min jan ｜ 4"
+    ],
+    "lines_zh": [
+      "gi dai",
+      "fen jan ten lai ｜ 16",
+      "mo fan min jan ｜ 1",
+      "mo fan lai ｜ 4",
+      "kun gau min jan ｜ 4"
+    ]
+  },
+  {
+    "before": 28,
+    "kind": "device",
+    "lines": [
+      "fe cau tie dai",
+      "li shu"
+    ],
+    "lines_zh": [
+      "fe cau tie dai",
+      "li shu"
+    ]
+  },
+  {
+    "before": 32,
+    "kind": "device",
+    "lines": [
+      "Air",
+      "CO2 ｜ 1015",
+      "PM2.5 ｜ 31.2",
+      "Devices",
+      "Attested ✓ ｜ 25"
+    ],
+    "lines_zh": [
+      "空气",
+      "CO2 ｜ 1015",
+      "PM2.5 ｜ 31.2",
+      "设备",
+      "已证明 ✓ ｜ 25"
+    ]
+  },
+  {
+    "before": 53,
+    "kind": "device",
+    "lines": [
+      "zan ｜ ｜ tie",
+      "sa dzu du de",
+      "len su 2415 de",
+      "bun kai mo fan ｜ → ｜ ci sen hu jan pu zau fe 400 lin man",
+      "ci cau be fe ti tie",
+      "ci tan jan pu ciu cu shan jin fe pa bi",
+      "ci sen hu fe bu"
+    ],
+    "lines_zh": [
+      "zan ｜ ｜ tie",
+      "sa dzu du de",
+      "len su 2415 de",
+      "bun kai mo fan ｜ → ｜ ci sen hu jan pu zau fe 400 lin man",
+      "ci cau be fe ti tie",
+      "ci tan jan pu ciu cu shan jin fe pa bi",
+      "ci sen hu fe bu"
+    ]
+  },
+  {
+    "before": 71,
+    "kind": "device",
+    "lines": [
+      "mu fu bau hai ka sha liu li dzai hen ji cin jan fe jan",
+      "ci mu fu bau fei ka zen die jia cu can hu fe lo kin liu"
+    ],
+    "lines_zh": [
+      "mu fu bau hai ka sha liu li dzai hen ji cin jan fe jan",
+      "ci mu fu bau fei ka zen die jia cu can hu fe lo kin liu"
+    ]
+  },
+  {
+    "before": 92,
+    "kind": "device",
+    "lines": [
+      "0x1b568a45...",
+      "1.35%",
+      "0x9f3c21d7...",
+      "2.07%",
+      "0x4a8e0b62...",
+      "1.62%",
+      "0xd714fc98...",
+      "2.88%",
+      "0x62bb39a0...",
+      "1.19%",
+      "0x8e05d1c4...",
+      "2.44%",
+      "0x37ad6f51...",
+      "1.73%",
+      "0xc9428e1b...",
+      "2.91%",
+      "sho hei dai - 827 gei zen"
+    ],
+    "lines_zh": [
+      "0x1b568a45...",
+      "1.35%",
+      "0x9f3c21d7...",
+      "2.07%",
+      "0x4a8e0b62...",
+      "1.62%",
+      "0xd714fc98...",
+      "2.88%",
+      "0x62bb39a0...",
+      "1.19%",
+      "0x8e05d1c4...",
+      "2.44%",
+      "0x37ad6f51...",
+      "1.73%",
+      "0xc9428e1b...",
+      "2.91%",
+      "sho hei dai - 827 gei zen"
+    ]
+  },
+  {
+    "before": 107,
+    "kind": "device",
+    "lines": [
+      "What did you do on Firemoon 10th? Explain the day in detail.",
+      ">"
+    ],
+    "lines_zh": [
+      "你在火月 10 日做了什么？详细讲述那一天。",
+      ">"
+    ]
+  },
+  {
+    "before": 115,
+    "kind": "device",
+    "lines": [
+      "sa dzu du de",
+      "len su 2415 de",
+      "bun kai mo fan"
+    ],
+    "lines_zh": [
+      "sa dzu du de",
+      "len su 2415 de",
+      "bun kai mo fan"
+    ]
+  },
+  {
+    "before": 130,
+    "kind": "device",
+    "lines": [
+      "Thinking ... estimated remaining time 440"
+    ],
+    "lines_zh": [
+      "思考中……预计剩余时间 440"
+    ]
+  }
+]

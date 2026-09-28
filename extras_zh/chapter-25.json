@@ -1,0 +1,72 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Pafogai Du, Dzego·3724 Frostime 1"
+    ],
+    "lines_zh": [
+      "帕佛盖都，泽戈 · 3724 年霜月 1 日"
+    ]
+  },
+  {
+    "before": 27,
+    "kind": "device",
+    "lines": [
+      "0011",
+      "0100",
+      "1010",
+      "1101"
+    ],
+    "lines_zh": [
+      "0011",
+      "0100",
+      "1010",
+      "1101"
+    ]
+  },
+  {
+    "before": 32,
+    "kind": "device",
+    "lines": [
+      "0010",
+      "0100",
+      "1010",
+      "1101"
+    ],
+    "lines_zh": [
+      "0010",
+      "0100",
+      "1010",
+      "1101"
+    ]
+  },
+  {
+    "before": 37,
+    "kind": "device",
+    "lines": [
+      "0010",
+      "0100",
+      "1010",
+      "1100"
+    ],
+    "lines_zh": [
+      "0010",
+      "0100",
+      "1010",
+      "1100"
+    ]
+  },
+  {
+    "before": 86,
+    "kind": "device",
+    "lines": [
+      "Message ｜ ｜ To ｜ Time",
+      "[requesting call] ｜ → ｜ Senator Verdow ｜ 78145"
+    ],
+    "lines_zh": [
+      "消息 ｜ ｜ 收件人 ｜ 时间",
+      "[请求通话] ｜ → ｜ 维尔多参议员 ｜ 78145"
+    ]
+  }
+]

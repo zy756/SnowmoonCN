@@ -1,0 +1,44 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Pafogai Du, Dzego·3724 Fruitmoon 18"
+    ],
+    "lines_zh": [
+      "帕佛盖都，泽戈 · 3724 年果月 18 日"
+    ]
+  },
+  {
+    "before": 48,
+    "kind": "device",
+    "lines": [
+      "sen hen zi li die fe 100",
+      "zo lia kin ✓",
+      "man dun li jie hu ✓ cau tie zen",
+      "ci fan zi li 448"
+    ],
+    "lines_zh": [
+      "sen hen zi li die fe 100",
+      "zo lia kin ✓",
+      "man dun li jie hu ✓ cau tie zen",
+      "ci fan zi li 448"
+    ]
+  },
+  {
+    "before": 69,
+    "kind": "device",
+    "lines": [
+      "pa jan li sun zo",
+      "zai gau fe pa jan",
+      "go li sun zo",
+      "bai gau fe go"
+    ],
+    "lines_zh": [
+      "pa jan li sun zo",
+      "zai gau fe pa jan",
+      "go li sun zo",
+      "bai gau fe go"
+    ]
+  }
+]

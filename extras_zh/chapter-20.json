@@ -1,0 +1,58 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Meldan, Veridia·3724 Mistime 10"
+    ],
+    "lines_zh": [
+      "梅尔丹，维里迪亚 · 3724 年雾月 10 日"
+    ]
+  },
+  {
+    "before": 13,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Febric ｜ → ｜ Hreda and I are both safely inside the Greater Plum Harbor. We will survive the best that we can.",
+      "We love you. ｜ 19867",
+      "Hreda ｜ → ｜ Northglade was invaded this morning. ｜ 20045",
+      "Hreda ｜ → ｜ It looked like there were barely any battles, as though our politicians and army are totally okay with this happening. ｜ 20060",
+      "Hreda ｜ → ｜ Febric and I are safely inside the Greater Plum Harbor. The Arctics seem to be respecting it as some kind of neutral zone, at least for now. ｜ 20071",
+      "Hreda ｜ → ｜ I'm scared. I hope everything will be okay.",
+      "Love you. ｜ 20077"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "费布里克 ｜ → ｜ 赫蕾达和我都已安全进入大梅港。我们会尽力活下去。",
+      "我们爱你。 ｜ 19867",
+      "赫蕾达 ｜ → ｜ 北林今天早上被入侵了。 ｜ 20045",
+      "赫蕾达 ｜ → ｜ 看起来几乎没怎么打，好像我们的政客和军队完全能接受这种事发生。 ｜ 20060",
+      "赫蕾达 ｜ → ｜ 费布里克和我已安全进入大梅港。北极人似乎把这里当作某种中立区，至少目前是这样。 ｜ 20071",
+      "赫蕾达 ｜ → ｜ 我好害怕。希望一切都会好起来。",
+      "爱你。 ｜ 20077"
+    ]
+  },
+  {
+    "before": 19,
+    "kind": "device",
+    "lines": [
+      "Frequent contact of Gladias",
+      "Proof verified. ✓"
+    ],
+    "lines_zh": [
+      "格拉迪亚斯的常用联系人",
+      "证明已验证。✓"
+    ]
+  },
+  {
+    "before": 129,
+    "kind": "device",
+    "lines": [
+      "50 zipcoins have just been burned.🔥"
+    ],
+    "lines_zh": [
+      "刚刚烧掉了 50 个齐普币。🔥"
+    ]
+  }
+]

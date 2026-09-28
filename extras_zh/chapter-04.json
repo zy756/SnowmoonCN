@@ -1,0 +1,96 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Pafogai Du, Dzego·3724 Snowmoon 24"
+    ],
+    "lines_zh": [
+      "帕佛盖都，泽戈 · 3724 年雪月 24 日"
+    ]
+  },
+  {
+    "before": 19,
+    "kind": "device",
+    "lines": [
+      "ja",
+      "kai",
+      "bau",
+      "lui"
+    ],
+    "lines_zh": [
+      "ja",
+      "kai",
+      "bau",
+      "lui"
+    ]
+  },
+  {
+    "before": 20,
+    "kind": "device",
+    "lines": [
+      "dze",
+      "liu",
+      "lei kai fun",
+      "gai",
+      "lie",
+      "jau",
+      "jin",
+      "lie",
+      "kai can",
+      "jia",
+      "dzu",
+      "lie"
+    ],
+    "lines_zh": [
+      "dze",
+      "liu",
+      "lei kai fun",
+      "gai",
+      "lie",
+      "jau",
+      "jin",
+      "lie",
+      "kai can",
+      "jia",
+      "dzu",
+      "lie"
+    ]
+  },
+  {
+    "before": 51,
+    "kind": "device",
+    "lines": [
+      "zan ｜ ｜ tie ｜ tei",
+      "Fin ｜ → ｜ jie fe hen dzi ｜ 74160"
+    ],
+    "lines_zh": [
+      "zan ｜ ｜ tie ｜ tei",
+      "芬 ｜ → ｜ jie fe hen dzi ｜ 74160"
+    ]
+  },
+  {
+    "before": 108,
+    "kind": "device",
+    "lines": [
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+"
+    ],
+    "lines_zh": [
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+"
+    ]
+  }
+]

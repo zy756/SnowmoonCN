@@ -1,0 +1,126 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Meldan, Veridia·3724 Rainmoon 12"
+    ],
+    "lines_zh": [
+      "梅尔丹，维里迪亚 · 3724 年雨月 12 日"
+    ]
+  },
+  {
+    "before": 39,
+    "kind": "device",
+    "lines": [
+      "All Keepers",
+      "Random selection",
+      "Current Keepers for this rubric",
+      "added second-last year",
+      "added lastyear",
+      "added thisyear",
+      "Randomselection",
+      "Randomselection",
+      "Randomselection",
+      "Discussion Group 1",
+      "Discussion Group 2",
+      "Discussion Group 3"
+    ],
+    "lines_zh": [
+      "全体守护者",
+      "随机抽选",
+      "本评分细则现任守护者",
+      "前年加入",
+      "去年加入",
+      "今年加入",
+      "随机抽选",
+      "随机抽选",
+      "随机抽选",
+      "讨论组 1",
+      "讨论组 2",
+      "讨论组 3"
+    ]
+  },
+  {
+    "before": 41,
+    "kind": "device",
+    "lines": [
+      "Rubric title ｜ Summary",
+      "5 ｜ Emergency preparedness in physical spaces ｜ Reduced tax bracket for presence of secure shelters, durable emergency supplies, full or partial grid-independence. Increased tax bracket for unsafe or fragile building design.",
+      "6 ｜ Openness in hardware ｜ Reduced tax bracket for respecting user right to repair, publishing usable schematics, designs and other sources, and following open standards. Increased tax bracket for deliberate incompatibility, restricting modifiability and related anti-competitive practices.",
+      "7 ｜ Clean indoor air ｜ Tax bracket proportional to observed average air quality indicators - CO2, PM2.5 and other mainstream measures. Average gives higher weight to higher-occupancy time periods. Applies to spaces that host more than 20 people."
+    ],
+    "lines_zh": [
+      "评分细则名称 ｜ 摘要",
+      "5 ｜ 物理空间的应急准备 ｜ 设有安全避难所、耐用应急物资，或能完全或部分脱离电网者，降低税档。建筑设计不安全或脆弱者，提高税档。",
+      "6 ｜ 硬件开放性 ｜ 尊重用户维修权、公开可用的原理图、设计及其他源文件、遵循开放标准者，降低税档。故意制造不兼容、限制可改造性及其他相关反竞争做法者，提高税档。",
+      "7 ｜ 室内空气清洁 ｜ 税档与观测到的平均空气质量指标（CO2、PM2.5 及其他主流指标）成正比。计算平均值时，人员密集时段权重更高。适用于容纳 20 人以上的空间。"
+    ]
+  },
+  {
+    "before": 43,
+    "kind": "dateline",
+    "lines": [
+      "3724 Rainmoon 13"
+    ],
+    "lines_zh": [
+      "3724 年雨月 13 日"
+    ]
+  },
+  {
+    "before": 124,
+    "kind": "device",
+    "lines": [
+      "Payment declined.",
+      "Not enough funds."
+    ],
+    "lines_zh": [
+      "支付被拒。",
+      "余额不足。"
+    ]
+  },
+  {
+    "before": 126,
+    "kind": "device",
+    "lines": [
+      "Reputation-backed loan request",
+      "Work history: teaching assistant.",
+      "Positive review from the professor and 5 students. ｜ Nullifier:",
+      "0x18f4...60c5",
+      "Requested loan: ｜ 2773 zipcoins"
+    ],
+    "lines_zh": [
+      "声誉担保贷款申请",
+      "工作经历：助教。",
+      "获教授及 5 名学生好评。 ｜ 废止符：",
+      "0x18f4...60c5",
+      "申请贷款额： ｜ 2773 齐普币"
+    ]
+  },
+  {
+    "before": 129,
+    "kind": "device",
+    "lines": [
+      "Payment succeeded.",
+      "Base ｜ 10.5 zc",
+      "Tax ｜ 1.1 zc",
+      "Total ｜ 11.6 zc"
+    ],
+    "lines_zh": [
+      "支付成功。",
+      "金额 ｜ 10.5 齐普币",
+      "税 ｜ 1.1 齐普币",
+      "合计 ｜ 11.6 齐普币"
+    ]
+  },
+  {
+    "before": 152,
+    "kind": "device",
+    "lines": [
+      "Request confirmed."
+    ],
+    "lines_zh": [
+      "请求已确认。"
+    ]
+  }
+]

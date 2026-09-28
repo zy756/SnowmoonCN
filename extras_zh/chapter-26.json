@@ -1,0 +1,62 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Veridia·3724 Frostime 5"
+    ],
+    "lines_zh": [
+      "维里迪亚 · 3724 年霜月 5 日"
+    ]
+  },
+  {
+    "before": 88,
+    "kind": "dateline",
+    "lines": [
+      "Meldan, Veridia·3724 Frostime 6"
+    ],
+    "lines_zh": [
+      "梅尔丹，维里迪亚 · 3724 年霜月 6 日"
+    ]
+  },
+  {
+    "before": 123,
+    "kind": "device",
+    "lines": [
+      "x",
+      "x",
+      "x"
+    ],
+    "lines_zh": [
+      "x",
+      "x",
+      "x"
+    ]
+  },
+  {
+    "before": 136,
+    "kind": "device",
+    "lines": [
+      "✓",
+      "✓",
+      "x"
+    ],
+    "lines_zh": [
+      "✓",
+      "✓",
+      "x"
+    ]
+  },
+  {
+    "before": 145,
+    "kind": "device",
+    "lines": [
+      "✓",
+      "✓"
+    ],
+    "lines_zh": [
+      "✓",
+      "✓"
+    ]
+  }
+]

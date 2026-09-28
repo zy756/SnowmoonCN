@@ -1,0 +1,282 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Freetown, United Cities·3724 Firemoon 17"
+    ],
+    "lines_zh": [
+      "自由城，联合城邦 · 3724 年火月 17 日"
+    ]
+  },
+  {
+    "before": 21,
+    "kind": "dateline",
+    "lines": [
+      "Meldan, Veridia"
+    ],
+    "lines_zh": [
+      "梅尔丹，维里迪亚"
+    ]
+  },
+  {
+    "before": 24,
+    "kind": "device",
+    "lines": [
+      "Message ｜ ｜ To",
+      "Please tell me you're in Freetown and you're okay. ｜ → ｜ Jahn"
+    ],
+    "lines_zh": [
+      "消息 ｜ ｜ 收件人",
+      "请告诉我你在自由城，而且平安无事。 ｜ → ｜ 扬"
+    ]
+  },
+  {
+    "before": 26,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Jahn ｜ → ｜ Don't worry, I am in Freetown. ｜ 32117"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "扬 ｜ → ｜ 别担心，我在自由城。 ｜ 32117"
+    ]
+  },
+  {
+    "before": 26,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Jahn ｜ → ｜ We've somehow been taking defense seriously here, and Freetown is about as far from Redshire as you can get in the United Cities, except for Silverbeach and Mabuli. ｜ 32124"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "扬 ｜ → ｜ 我们这边不知怎么的一直挺重视防务，而且在联合城邦里，除了银滩和马布利，自由城差不多是离红郡最远的地方了。 ｜ 32124"
+    ]
+  },
+  {
+    "before": 47,
+    "kind": "dateline",
+    "lines": [
+      "Pafogai Du, Dzego"
+    ],
+    "lines_zh": [
+      "帕佛盖都，泽戈"
+    ]
+  },
+  {
+    "before": 48,
+    "kind": "device",
+    "lines": [
+      "tie ｜ ｜ dun",
+      "Are you okay????!",
+      "Please tell me where you are. ｜ → ｜ Deluin"
+    ],
+    "lines_zh": [
+      "tie ｜ ｜ dun",
+      "你还好吗？？？？！",
+      "告诉我你在哪儿。 ｜ → ｜ 德卢因"
+    ]
+  },
+  {
+    "before": 50,
+    "kind": "device",
+    "lines": [
+      "zan ｜ ｜ tie ｜ tei",
+      "Deluin ｜ → ｜ Don't worry, I am alive.",
+      "Though it looks like I'm not going to be getting back to Dzego anytime soon. ｜ 84690"
+    ],
+    "lines_zh": [
+      "zan ｜ ｜ tie ｜ tei",
+      "德卢因 ｜ → ｜ 别担心，我还活着。",
+      "不过看样子，我短期内是回不了泽戈了。 ｜ 84690"
+    ]
+  },
+  {
+    "before": 51,
+    "kind": "device",
+    "lines": [
+      "zan ｜ ｜ tie ｜ tei",
+      "Deluin ｜ → ｜ I found a way to send messages out.",
+      "Some Arctic soldier and his friend, or his AI, or something, coded up a way to embed hidden text messages inside real-time health data that he is sending back home to command.",
+      "And someone else in command is relaying that signal into a weather feed, which is then going up to the satellites.",
+      "He's making a whole bunch of zipcoins anonymously rebroadcasting messages for people. ｜ 84714"
+    ],
+    "lines_zh": [
+      "zan ｜ ｜ tie ｜ tei",
+      "德卢因 ｜ → ｜ 我找到了一个往外发消息的办法。",
+      "有个北极士兵和他的朋友——或者他的 AI，或者别的什么——写了个程序，能把隐藏的文字消息嵌进他发回国内司令部的实时健康数据里。",
+      "司令部里又有别人把这个信号转进一路天气数据流，再由它传上卫星。",
+      "他匿名替人转发消息，赚了一大笔齐普币。 ｜ 84714"
+    ]
+  },
+  {
+    "before": 52,
+    "kind": "device",
+    "lines": [
+      "tie ｜ ｜ dun",
+      "Wow. Are you ... in touch with this soldier? ｜ → ｜ Deluin"
+    ],
+    "lines_zh": [
+      "tie ｜ ｜ dun",
+      "哇。你……跟这个士兵有联系？ ｜ → ｜ 德卢因"
+    ]
+  },
+  {
+    "before": 52,
+    "kind": "device",
+    "lines": [
+      "zan ｜ ｜ tie ｜ tei",
+      "Deluin ｜ → ｜ I have an anonymous link. ｜ 84723"
+    ],
+    "lines_zh": [
+      "zan ｜ ｜ tie ｜ tei",
+      "德卢因 ｜ → ｜ 我有一条匿名链路。 ｜ 84723"
+    ]
+  },
+  {
+    "before": 52,
+    "kind": "device",
+    "lines": [
+      "tie ｜ ｜ dun",
+      "Ask him how he's encoding the messages that he's putting into his health data. ｜ → ｜ Deluin"
+    ],
+    "lines_zh": [
+      "tie ｜ ｜ dun",
+      "问问他，他塞进健康数据里的消息是怎么编码的。 ｜ → ｜ 德卢因"
+    ]
+  },
+  {
+    "before": 53,
+    "kind": "device",
+    "lines": [
+      "tie ｜ ｜ dun",
+      "Or actually, on second thought, he won't answer. But tell him that randomly flipping the least-significant bits, the strategy that everyone always reaches for when they encounter this problem for the first time, is not the ideal solution. Sometimes higher-order bits are totally fine to flip, and sometimes flipping even a least-significant bit is dangerous.",
+      "What you want to do is:",
+      "* Train a language model on the actual distribution, so that conditional on what all the other bits are, it can give you probabilities for whether a given bit should be 0 or 1",
+      "* Split the data up into buckets - make sure to use the decryption key itself to choose the buckets randomly - and require the bits in the i'th bucket to XOR to the i'th bit in the ciphertext. Within each bucket, use the model to determine which bit's probabilities are closest to 50/50 - meaning both values are \"natural\" for that bit to have in that context - and flip that bit to make the bucket XOR correct.",
+      "So you're letting the LLM decide which bits are \"least significant\" and okay to flip, instead of just always taking the lowest-order binary digit in each number. ｜ → ｜ Deluin"
+    ],
+    "lines_zh": [
+      "tie ｜ ｜ dun",
+      "算了，转念一想，他不会回答的。不过你告诉他：随机翻转最低有效位——每个人第一次碰到这个问题时都会想到的办法——并不是理想方案。有时候翻转高位完全没问题，有时候哪怕翻转一个最低有效位也很危险。",
+      "应该这么做：",
+      "* 用真实分布训练一个语言模型，让它在已知其他所有位的条件下，给出某一位应当是 0 还是 1 的概率",
+      "* 把数据分成若干个桶——一定要用解密密钥本身来随机分桶——并要求第 i 个桶里各位的异或等于密文的第 i 位。在每个桶内，用模型找出哪一位的概率最接近五五开——也就是说，在那个语境下这一位取哪个值都“自然”——然后翻转那一位，让这个桶的异或结果正确。",
+      "这样一来，就是让 LLM 来决定哪些位是“最不重要的”、可以翻转，而不是永远只拿每个数最低的那个二进制位开刀。 ｜ → ｜ 德卢因"
+    ]
+  },
+  {
+    "before": 55,
+    "kind": "device",
+    "lines": [
+      "tie ｜ ｜ dun",
+      "If you want to go even further, you can make the buckets partially overlap. Say:",
+      "* the first bucket is 0...199",
+      "* the second is 20...219",
+      "* the third is 40...239",
+      "and so on, though remember the whole order should be a pseudorandom permutation.",
+      "Also, choose only a random half of the positions in each bucket to go into the XOR, so there are always bits to flip that affect one bucket but not the bucket before or after it. So say, 204 might be part of the second bucket _but not_ the third.",
+      "The happy-path algorithm is:",
+      "* choose a bit to flip in 0...199 to make the first bucket XOR correctly",
+      "* choose a bit to flip in 200...219 to make the second bucket XOR correctly",
+      "* choose a bit to flip in 220...239 to make the third bucket XOR correctly",
+      "and so on...",
+      "But if, let's say, 240...259 gives you 20 bits in a row where _none of them_ are reasonable to flip - think, a very clear picture of a night sky, so you get 20 pixels in a row that are really supposed to be exactly black - or the equivalent of that for health data - then you walk back and try to find a combination of bits to flip in 220...239 that makes both of the last two buckets XOR correctly, and if that fails, you walk back further and try to find a combination of bits to flip in 200...239 to make the last three buckets XOR correctly, and so on. ｜ → ｜ Deluin"
+    ],
+    "lines_zh": [
+      "tie ｜ ｜ dun",
+      "如果还想更进一步，可以让桶部分重叠。比如：",
+      "* 第一个桶是 0...199",
+      "* 第二个是 20...219",
+      "* 第三个是 40...239",
+      "以此类推，不过记住，整体顺序应当是一个伪随机排列。",
+      "另外，每个桶里只随机挑一半的位置参与异或，这样总有一些位翻转后只影响一个桶，而不影响它前后的桶。比如说，204 可能属于第二个桶，_但不属于_第三个。",
+      "一切顺利时的算法是：",
+      "* 在 0...199 中选一位翻转，让第一个桶的异或正确",
+      "* 在 200...219 中选一位翻转，让第二个桶的异或正确",
+      "* 在 220...239 中选一位翻转，让第三个桶的异或正确",
+      "以此类推……",
+      "但假如，比方说，240...259 给你连续 20 位，_没有一位_适合翻转——想象一张非常清晰的夜空照片，连续 20 个像素本就该是纯黑——或者健康数据里的同类情况——那你就往回退，试着在 220...239 中找一组位来翻转，让最后两个桶的异或都正确；要是还不行，就再往回退，在 200...239 中找一组位来翻转，让最后三个桶的异或都正确，以此类推。 ｜ → ｜ 德卢因"
+    ]
+  },
+  {
+    "before": 56,
+    "kind": "device",
+    "lines": [
+      "tie ｜ ｜ dun",
+      "I learned that from Den's cryptography textbooks. ｜ → ｜ Deluin"
+    ],
+    "lines_zh": [
+      "tie ｜ ｜ dun",
+      "这是我从丹的密码学教科书里学来的。 ｜ → ｜ 德卢因"
+    ]
+  },
+  {
+    "before": 56,
+    "kind": "device",
+    "lines": [
+      "zan ｜ ｜ tie ｜ tei",
+      "Deluin ｜ → ｜ I'll forward that to him.",
+      "But I suspect that for him, first priority is going to be finding higher-bandwidth channels to hide data inside. Optimizing which bits to flip is really smart but it's maybe a 2x gain, finding a better data stream might be a 1000x gain.",
+      "Always take the dumb 1000x gain before the super-clever 2x gain. ｜ 85190"
+    ],
+    "lines_zh": [
+      "zan ｜ ｜ tie ｜ tei",
+      "德卢因 ｜ → ｜ 我会转给他。",
+      "不过我猜，对他来说，头等大事是找到带宽更高的通道来藏数据。优化翻转哪些位确实非常聪明，但大概只有 2 倍的提升；找到一条更好的数据流，可能就是 1000 倍的提升。",
+      "永远先拿笨办法的 1000 倍，再去拿绝顶聪明的 2 倍。 ｜ 85190"
+    ]
+  },
+  {
+    "before": 56,
+    "kind": "device",
+    "lines": [
+      "zan ｜ ｜ tie ｜ tei",
+      "Deluin ｜ → ｜ I learned that in business school. ｜ 85200"
+    ],
+    "lines_zh": [
+      "zan ｜ ｜ tie ｜ tei",
+      "德卢因 ｜ → ｜ 这是我在商学院学的。 ｜ 85200"
+    ]
+  },
+  {
+    "before": 57,
+    "kind": "device",
+    "lines": [
+      "tie ｜ ｜ dun",
+      "Alright, well stay safe.",
+      "And let me know if there's anything that I can do, or that smart people in my network could do, to help you get out of there safely. ｜ → ｜ Deluin"
+    ],
+    "lines_zh": [
+      "tie ｜ ｜ dun",
+      "好吧，那你注意安全。",
+      "要是有什么我能做的，或者我认识的聪明人能做的，能帮你安全离开那里，告诉我。 ｜ → ｜ 德卢因"
+    ]
+  },
+  {
+    "before": 58,
+    "kind": "device",
+    "lines": [
+      "zan ｜ ｜ tie ｜ tei",
+      "Deluin ｜ → ｜ Will do. Thank you for caring about me. ｜ 84821"
+    ],
+    "lines_zh": [
+      "zan ｜ ｜ tie ｜ tei",
+      "德卢因 ｜ → ｜ 会的。谢谢你惦记我。 ｜ 84821"
+    ]
+  },
+  {
+    "before": 97,
+    "kind": "device",
+    "lines": [
+      "zan ｜ ｜ tie ｜ tei",
+      "Deluin ｜ → ｜ Arctic soldier says thanks, it helped a lot. ｜ 92115"
+    ],
+    "lines_zh": [
+      "zan ｜ ｜ tie ｜ tei",
+      "德卢因 ｜ → ｜ 那个北极士兵说谢谢，帮了大忙。 ｜ 92115"
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Pafogai Du, Dzego·3724 Mistime 27"
+    ],
+    "lines_zh": [
+      "帕佛盖都，泽戈 · 3724 年雾月 27 日"
+    ]
+  },
+  {
+    "before": 27,
+    "kind": "device",
+    "lines": [
+      "sun jan li shai fe to dzan dzie ka jie dau fe sei sui ji cen hai zun",
+      "ci sun gau jan li gei shai fe to dzan dzie de mia ka ti dzie ka pu she"
+    ],
+    "lines_zh": [
+      "sun jan li shai fe to dzan dzie ka jie dau fe sei sui ji cen hai zun",
+      "ci sun gau jan li gei shai fe to dzan dzie de mia ka ti dzie ka pu she"
+    ]
+  }
+]

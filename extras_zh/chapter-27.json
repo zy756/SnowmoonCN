@@ -1,0 +1,118 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Meldan, Veridia·3724 Frostime 7"
+    ],
+    "lines_zh": [
+      "梅尔丹，维里迪亚 · 3724 年霜月 7 日"
+    ]
+  },
+  {
+    "before": 95,
+    "kind": "dateline",
+    "lines": [
+      "3724 Frostime 8"
+    ],
+    "lines_zh": [
+      "3724 年霜月 8 日"
+    ]
+  },
+  {
+    "before": 114,
+    "kind": "device",
+    "lines": [
+      "How much confidence do you have in the Veridian military? How much confidence do you have in the Veridian military?: None at all 39%, A little 25%, Some 15%, A lot 12%, Total confidence 9%.",
+      "How much confidence do you have in the Veridian",
+      "military?",
+      "None at all",
+      "39%",
+      "A little",
+      "25%",
+      "Some",
+      "15%",
+      "A lot",
+      "12%",
+      "Total confidence",
+      "9%"
+    ],
+    "lines_zh": [
+      "你对维里迪亚军队有多大信心？ 你对维里迪亚军队有多大信心？：完全没有 39%，一点点 25%，有一些 15%，很大 12%，完全信任 9%。",
+      "你对维里迪亚军队",
+      "有多大信心？",
+      "完全没有",
+      "39%",
+      "一点点",
+      "25%",
+      "有一些",
+      "15%",
+      "很大",
+      "12%",
+      "完全信任",
+      "9%"
+    ]
+  },
+  {
+    "before": 115,
+    "kind": "device",
+    "lines": [
+      "Who would you prefer to run the Veridian military? Who would you prefer to run the Veridian military?: Its current leadership 13%, A new leadership chosen by parliament 21%, Silverchat 10%, The Arctics 16%, Kungaupei 38%, Arturian military advisors 2%.",
+      "13%",
+      "21%",
+      "Silverchat",
+      "10%",
+      "The Arctics",
+      "16%",
+      "Kungaupei",
+      "38%",
+      "advisors",
+      "2%"
+    ],
+    "lines_zh": [
+      "你希望由谁来掌管维里迪亚军队？ 你希望由谁来掌管维里迪亚军队？：现任领导层 13%，议会选出的新领导层 21%，银聊 10%，北极人 16%，昆高派 38%，阿图莉亚军事顾问 2%。",
+      "13%",
+      "21%",
+      "银聊",
+      "10%",
+      "北极人",
+      "16%",
+      "昆高派",
+      "38%",
+      "顾问",
+      "2%"
+    ]
+  },
+  {
+    "before": 119,
+    "kind": "device",
+    "lines": [
+      "Who would you prefer to run the Veridian military? — Restricted to people with Northshore ties Who would you prefer to run the Veridian military? — Restricted to people with Northshore ties: Its current leadership 6%, A new leadership chosen by parliament 8%, Silverchat 16%, The Arctics 13%, Kungaupei 52%, Arturian military advisors 5%.",
+      "Restricted to people with Northshore ties",
+      "6%",
+      "8%",
+      "Silverchat",
+      "16%",
+      "The Arctics",
+      "13%",
+      "Kungaupei",
+      "52%",
+      "advisors",
+      "5%"
+    ],
+    "lines_zh": [
+      "你希望由谁来掌管维里迪亚军队？——仅限与北岸有关联者 你希望由谁来掌管维里迪亚军队？——仅限与北岸有关联者：现任领导层 6%，议会选出的新领导层 8%，银聊 16%，北极人 13%，昆高派 52%，阿图莉亚军事顾问 5%。",
+      "仅限与北岸有关联者",
+      "6%",
+      "8%",
+      "银聊",
+      "16%",
+      "北极人",
+      "13%",
+      "昆高派",
+      "52%",
+      "顾问",
+      "5%"
+    ]
+  }
+]

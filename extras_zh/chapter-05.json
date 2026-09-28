@@ -1,0 +1,126 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Freetown, United Cities·3724 Rainmoon 11"
+    ],
+    "lines_zh": [
+      "自由城，联合城邦 · 3724 年雨月 11 日"
+    ]
+  },
+  {
+    "before": 21,
+    "kind": "device",
+    "lines": [
+      "Rep score ≥ 100 Verified ✓",
+      "Payment successful ✓ Checked in. Your room numbers are: 714, 715, 716."
+    ],
+    "lines_zh": [
+      "声誉分 ≥ 100 已验证 ✓",
+      "支付成功 ✓ 已入住。您的房间号为：714、715、716。"
+    ]
+  },
+  {
+    "before": 42,
+    "kind": "device",
+    "lines": [
+      "10",
+      "15",
+      "15",
+      "10",
+      "10",
+      "15",
+      "5",
+      "10",
+      "5",
+      "15",
+      "10",
+      "10",
+      "15",
+      "5",
+      "10",
+      "10",
+      "5",
+      "5",
+      "5",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "Silverbeach",
+      "Mabuli",
+      "Inglewore",
+      "Hapton",
+      "Imber",
+      "Arturia",
+      "Deplexi",
+      "Freetown",
+      "Redshire",
+      "Petersvil",
+      "Devanvil",
+      "Ondak",
+      "Iptak",
+      "Mantak",
+      "Belpaki"
+    ],
+    "lines_zh": [
+      "10",
+      "15",
+      "15",
+      "10",
+      "10",
+      "15",
+      "5",
+      "10",
+      "5",
+      "15",
+      "10",
+      "10",
+      "15",
+      "5",
+      "10",
+      "10",
+      "5",
+      "5",
+      "5",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "银滩",
+      "马布利",
+      "英格沃尔",
+      "哈普顿",
+      "因伯",
+      "阿图莉亚",
+      "德普莱克西",
+      "自由城",
+      "红郡",
+      "彼得斯维尔",
+      "德万维尔",
+      "翁达克",
+      "伊普塔克",
+      "曼塔克",
+      "贝尔帕基"
+    ]
+  },
+  {
+    "before": 83,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Gladias ｜ → ｜ [now calling] ｜ 58130"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "格拉迪亚斯 ｜ → ｜ [正在呼叫] ｜ 58130"
+    ]
+  }
+]

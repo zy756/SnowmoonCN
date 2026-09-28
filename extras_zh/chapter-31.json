@@ -1,0 +1,24 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Northglade, Veridia·3725 Rainmoon 2"
+    ],
+    "lines_zh": [
+      "北林，维里迪亚 · 3725 年雨月 2 日"
+    ]
+  },
+  {
+    "before": 66,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Jahn ｜ → ｜ [5 images] ｜ 45904"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "扬 ｜ → ｜ [5 张图片] ｜ 45904"
+    ]
+  }
+]

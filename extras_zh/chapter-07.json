@@ -1,0 +1,42 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Pafogai Du, Dzego·3724 Rainmoon 23"
+    ],
+    "lines_zh": [
+      "帕佛盖都，泽戈 · 3724 年雨月 23 日"
+    ]
+  },
+  {
+    "before": 5,
+    "kind": "device",
+    "lines": [
+      "🙁2 🙁 😐 😊 😊2"
+    ],
+    "lines_zh": [
+      "🙁2 🙁 😐 😊 😊2"
+    ]
+  },
+  {
+    "before": 19,
+    "kind": "dateline",
+    "lines": [
+      "3724 Rainmoon 24"
+    ],
+    "lines_zh": [
+      "3724 年雨月 24 日"
+    ]
+  },
+  {
+    "before": 132,
+    "kind": "device",
+    "lines": [
+      "dun fe tin di zei de kin kie"
+    ],
+    "lines_zh": [
+      "dun fe tin di zei de kin kie"
+    ]
+  }
+]

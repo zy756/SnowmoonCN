@@ -1,0 +1,116 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第 21 章 · Snowmoon 中文版</title><meta name="description" content="Vitalik Buterin 科幻小说《Snowmoon》简体中文译本（GPL v3）">
+<link rel="stylesheet" href="style.css">
+<meta property="og:type" content="book"><meta property="og:site_name" content="Snowmoon 中文版"><meta property="og:title" content="第 21 章 · Snowmoon 中文版"><meta property="og:description" content="Vitalik Buterin 科幻小说《Snowmoon》简体中文译本：二次方投票、零知识证明、抽签选举与虚构城邦维里迪亚。">
+<meta property="og:image" content="https://book.routex.one/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://book.routex.one/og.png">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head><body>
+<header class="bar"><a href="index.html" class="home">Snowmoon · 雪月</a><a href="https://t.me/SnowmoonCN" class="tg" target="_blank" rel="noopener">电报群</a>
+<button class="theme" onclick="var d=document.documentElement,n=(d.dataset.theme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))==='dark'?'light':'dark';d.dataset.theme=n;try{localStorage.setItem('theme',n)}catch(e){}" aria-label="切换深浅色">◐</button></header>
+<main><h1>第 21 章</h1>
+<div class="dateline">梅尔丹，维里迪亚 · 3724 年雾月 20 日</div>
+<p>塞拉、维尔、黛娅、莉莉和兹文围坐在塞拉家的餐桌旁，等着晚饭送来。</p>
+<p><span class="say" style="--h:253">“谢谢你们来陪陪我们，”</span>塞拉轻声说，<span class="say" style="--h:253">“这对我真的很重要。”</span></p>
+<p><span class="say" style="--h:293">“费布里克和赫蕾达那边还有什么新消息吗？”</span></p>
+<p><span class="say" style="--h:253">“前几天我又给他们转了些齐普币当零花。他们就在大梅港里头，能怎么过就怎么过。学校都满了，不过难民里有一位是数学老师，我们请她私下给他们和另外几个孩子上上课。”</span></p>
+<p><span class="say" style="--h:293">“还是没说什么时候能有办法让他们回来？”</span></p>
+<p><span class="say" style="--h:253">“还是没有。事到如今，我都开始怀疑北极人所谓让所有人重新团聚的计划，就是干脆把维里迪亚剩下的地方也一并打下来。”</span></p>
+<p><span class="say" style="--h:293">“唉，至少他们是安全的。”</span></p>
+<p>塞拉叹了口气。</p>
+<p><span class="say" style="--h:253">“你们告迪弗金特的官司怎么样了？”</span></p>
+<p>这回轮到维尔叹气了。</p>
+<p><span class="say" style="--h:293">“几个月前一审我们赢了。可他们上诉了。于是又抽签选出了一批完全不同的法官来审这个案子，一个月前，他们也判我们胜诉。可就在几天前，我们得知他们又要第二次上诉。”</span></p>
+<p><span class="say" style="--h:253">“他们能这么没完没了地一直上诉下去吗？再上诉一次，再抽签选五个法官进来，你们又得从头说服他们一遍，就这么一直拖，拖到你们筋疲力尽、干脆放弃，拿个四分之一的钱就和解了事？”</span></p>
+<p><span class="say" style="--h:293">“好在不能。维里迪亚的普通法里有规定，法官可以裁定一个案子属于恶意诉讼，要求提起方额外赔给对方一大笔钱作为惩罚。那种胡搅蛮缠的上诉经常落得这个下场。”</span></p>
+<p><span class="say" style="--h:293">“你看，他们最新的上诉材料里有一段新录像，是从飞跃内部监控系统里弄出来的。当然，那些东西全都加了密，但有个前员工有访问权限，就把它交了出去。他们找到了一些视频和消息，让我们当中有几个人看上去不太光彩。所以他们就拿这个说事，主张这是一次正当的上诉。可实际上，那段视频跟案子根本没有半点实质关系。我希望这一轮的法官能比上一轮更快看穿迪弗金特的把戏。我们在答辩状里指控他们恶意上诉，运气好的话，这事应该很快就能了结。”</span></p>
+<p><span class="say" style="--h:253">“这些对冲基金真够狠的，是吧。”</span></p>
+<p><span class="say" style="--h:293">“要不是审判是匿名的、随机抽选的，每一轮还要分成两组半，我敢肯定他们也会想办法去威胁或者收买法官。”</span></p>
+<p>就在这时，莉莉冲进了房间。</p>
+<p><span class="say" style="--h:160">“维尔叔叔，黛娅阿姨，妈妈！我最近那次公民课考试考了八十一分！”</span></p>
+<p><span class="say" style="--h:53">“恭喜你，莉莉！”</span>黛娅说。</p>
+<p><span class="say" style="--h:293">“换作平时，我会说，这下你挣到去北林玩一趟了，”</span>维尔接着说，<span class="say" style="--h:293">“可是，唉……”</span></p>
+<p><span class="say" style="--h:253">“要是过几个月安全了，格拉迪亚斯那边也用不着我，我就带你去联合城邦那边玩。也许去马布利，”</span>塞拉提议道。</p>
+<p>门铃响了。还没等别人反应过来，兹文已经跑到门口去取外卖了。</p>
+<p>兹文打开门，从一台机器人手里接过两个袋子，关上门。他把饭菜拿回餐桌，马上开始拆包装。他、塞拉、黛娅、维尔和莉莉各自找到装着自己那份饭的盒子，五个人开始吃了起来。</p>
+<p><span class="say" style="--h:53">“兹文，最近在学校过得怎么样？”</span>黛娅问。</p>
+<p><span class="say" style="--h:347">“我们队昨天又赢了一场飞旋球比赛！”</span>兹文兴奋地回答。</p>
+<p><span class="say" style="--h:347">“一个月前我物理考试还考了九十五分。我们老师特别佩服。”</span></p>
+<p><span class="say" style="--h:253">“太棒了，”</span>塞拉说。</p>
+<p><span class="say" style="--h:347">“所以前几天，他单独带我去了一个车库，给我看了一枚小火箭。他让我看了看里面，然后让我按下按钮把它发射出去。太好玩了！”</span></p>
+<p><span class="say" style="--h:347">“我长大了要造火箭！然后我要坐着它飞。说不定有一天我还能飞到月亮上去呢！”</span></p>
+<p><span class="say" style="--h:293">“听起来你用不着我带你去冒险了！”</span>维尔补了一句。</p>
+<p>黛娅继续挨个问桌上的家人近况。</p>
+<p><span class="say" style="--h:53">“那塞拉，你这边还有什么新鲜事？”</span></p>
+<p><span class="say" style="--h:253">“嗯，除了费布里克和赫蕾达，我基本上一直在想前些天跟舵手会其他成员开的那几次会。”</span></p>
+<p><span class="say" style="--h:53">“能多说一点吗？”</span></p>
+<p><span class="say" style="--h:253">“细节不能说。不过大体上，感觉有人在非常有组织地试图操纵舵手会。他们对不同的人说不同的话，根据每个人的具体立场去逐个操纵；他们的监视能力强得惊人；而且他们的目的，似乎根本不是什么商业上的东西。”</span></p>
+<p><span class="say" style="--h:347">“是北极人吗？”</span>兹文脱口而出，那股兴奋劲儿就像侦探小说里的主角破了案。</p>
+<p>餐桌上一片寂静。</p>
+<p>塞拉坐在自家地下室的椅子上，盯着手持设备。</p>
+<p>快点啊，她想。格拉迪亚斯随时都该醒了。</p>
+<p>她第五次一巴掌拍在自己脸上，为自己先前的盲目感到羞愧。格拉迪亚斯半年来一直在参加那些秘密会面，她却什么都没问，只当他心里有数——就算格拉迪亚斯自己想不明白，他那位神神秘秘的朋友莫夫也总能想明白。</p>
+<p>可结果呢，格拉迪亚斯和莫夫从头到尾都被这个人耍得团团转。等他最初的伪装——一个关心和平与自由的好心人——被戳穿之后，他们又被他的第二层面具骗了一回，也就是他那套自称来自银聊的说辞。</p>
+<p>塞拉自己一天之内就看穿了银聊这个幌子——说实话，她几分钟之内就起了疑心。可她没有足够快地往下深挖。她也曾想过会不会是北极人，却又把这个念头打消了——德尔瓦特说过的话，没有一句像她从埃菲利昂勋爵那里听到过的任何东西。一个北极人，怎么会说和平与自由的好话呢？可现在，整幅拼图都拼上了。当你排除了一切不可能，剩下的无论多么不可思议，都必然是真相。</p>
+<p>她的手表震了一下。是格拉迪亚斯。</p>
+<p>她立刻打了过去。</p>
+<p><span class="say" style="--h:93">“塞拉！我好想你。你还好吗？”</span></p>
+<p>一开始，她只想尖叫。</p>
+<p><span class="say" style="--h:253">“格拉迪亚斯，你这个白痴！你知道你干了什么吗？！！！！”</span></p>
+<p>起初，是一阵沉默。</p>
+<p><span class="say" style="--h:93">“怎么了，塞拉？”</span></p>
+<p><span class="say" style="--h:253">“德尔瓦特。”</span></p>
+<p>又是沉默。</p>
+<p><span class="say" style="--h:93">“我明白了。莫夫跟你说了？”</span></p>
+<p><span class="say" style="--h:253">“莫夫也是个白痴。你信他，你就是双倍的白痴。对，他是跟我说了，格拉迪亚斯。可我几乎马上就看穿了德尔瓦特的谎话，还硬拉着莫夫出去，自己查了一番。”</span></p>
+<p><span class="say" style="--h:93">“你查到了什么？”</span></p>
+<p><span class="say" style="--h:253">“他根本不是替银聊干活的，你这个天真得不可救药的白痴！”</span></p>
+<p><span class="say" style="--h:93">“什么？”</span></p>
+<p>又是一阵沉默，这回是塞拉这边，她在想接下来要说什么。</p>
+<p><span class="say" style="--h:93">“你们知道了些什么？”</span></p>
+<p><span class="say" style="--h:253">“我们找到了德尔瓦特接触过的另外两个守护者。其中一个在负责环境传感器数据留存的评分细则。德尔瓦特找上了他，就跟找上你的办法一模一样。他跟那人说，在安防和环境方面的数据采集上，都别费劲去争取更多的隐私保护了。”</span></p>
+<p><span class="say" style="--h:253">“接着我们又找到了一个。她负责的是教育方面的细则。德尔瓦特跟她说，要把激励私立学校好好开设维里迪亚公民教育的那些条款拿掉。”</span></p>
+<p><span class="say" style="--h:253">“最后，为了确认，我们找到了一个守护者，他负责的正是银聊理应最关心的那项细则——社交媒体的开放与互通——结果德尔瓦特也好，别的什么人也好，压根一个都没去找过他们。”</span></p>
+<p><span class="say" style="--h:93">“可是……莫夫亲耳听到德尔瓦特跟一个银聊的人说话，那又是怎么回事？难道是另外有人也想收买银聊？说服他们给某些偏向他们立场的内容加推？”</span></p>
+<p><span class="say" style="--h:253">“不是，你这个白痴。那是德尔瓦特装出来的。拜托，他的监视本事比莫夫强多了，他肯定在某个时候就察觉到莫夫在跟踪他，于是有一天故意埋下了这颗种子，好让他的掩护身份更可信。”</span></p>
+<p><span class="say" style="--h:93">“那……”</span></p>
+<p><span class="say" style="--h:253">“想想我们现在对德尔瓦特的目的都了解了些什么。你以为他在乎自由——可他却在推动不受限制的监控。你以为他反战——可他对第二个守护者压根没提这一茬。后来你又以为他在乎银聊——可银聊最在意的那项细则，负责它的守护者小组他却连门都没摸到！”</span></p>
+<p><span class="say" style="--h:93">“守护者小组有三个，彼此之间不交流。他完全可能进到另外两个组里去。”</span></p>
+<p><span class="say" style="--h:253">“关键在于证据的优势！”</span>塞拉厉声说，<span class="say" style="--h:253">“还记得概率更新公式吗，赫蕾达冲我们喊过好多次了。每一条单独的证据，也许只能让胜算比变动两三倍。可当有三个相互独立的因素全都指向同一个方向，乘起来，胜算比就要变动八倍到二十七倍。”</span></p>
+<p><span class="say" style="--h:93">“好吧，那你觉得德尔瓦特真正的动机是什么？”</span></p>
+<p><span class="say" style="--h:253">“他是北极人。”</span></p>
+<p><span class="say" style="--h:93">“什么？”</span></p>
+<p><span class="say" style="--h:93">“这太难让人相信了。他跟我说过的话，没有一句听着像埃菲利昂勋爵。”</span></p>
+<p><span class="say" style="--h:253">“格拉迪亚斯……你怎么能天真成这样？”</span></p>
+<p><span class="say" style="--h:253">“埃菲利昂和德尔瓦特不是知识分子，他们是宣传家。他们的目的不是去寻找、去分享他们认为的真相。他们的目的是去调整话语环境——不管是一个人的还是整个国家的——让它合乎他们的利益。把旁观者变成朋友，把敌人变成旁观者。”</span></p>
+<p><span class="say" style="--h:253">“埃菲利昂的目的，是鼓动维里迪亚境内的人投身北极的事业。所以他公开宣扬的，是某个版本的北极事业，恰好能吸引维里迪亚那些聪明、却病态扭曲的人。”</span></p>
+<p><span class="say" style="--h:253">“德尔瓦特的目的，是瓦解舵手会。他知道自己没法让舵手会亲北极，但他能做到的是让它失灵。所以对他来说，更好的说辞是有时候拥护自由，有时候拥护和平，有时候又拥护别的什么，全看是哪项细则、跟他说话的是谁。”</span></p>
+<p><span class="say" style="--h:93">“你怎么这么肯定？”</span></p>
+<p><span class="say" style="--h:253">“证据的优势。我们一条一条列出来。”</span></p>
+<p><span class="say" style="--h:253">“德尔瓦特的目的是什么？不是他嘴上说的目的，而是从他的行动里看得出来的目的？”</span></p>
+<p><span class="say" style="--h:253">“第一：削弱对开源防御硬件的支持。自由加一分，和平加一分，北极加一分，银聊零分。”</span></p>
+<p><span class="say" style="--h:253">“第二：推动不受限制的监控。自由减一分，和平零分，北极加一分，银聊零分。”</span></p>
+<p><span class="say" style="--h:253">“第三：推动维里迪亚的学校不教维里迪亚公民课。德尔瓦特的原话是：‘人们应该靠自己亲眼看到维里迪亚有多好，从而学会爱它。’自由加一分，和平零分，北极加一分，银聊零分。”</span></p>
+<p><span class="say" style="--h:253">“第四：没有参与社交媒体开放与互通那项细则。行，守护者小组有三个，这一条我们乘以二分之一。自由零分，和平零分，北极零分，银聊减半分。”</span></p>
+<p><span class="say" style="--h:253">“第五：他一露馅，就把你打发去了泽戈。你可以说，这是个好建议，维里迪亚就该多向泽戈学习。可这不是唯一的解释。另一种解释是，他想把你支开，支到半个地球之外，这样等你起了疑心，也没法干扰他的任何计划！两种都有可能。所以每种可能都加一分。”</span></p>
+<p><span class="say" style="--h:253">“第六：他的监视能力，超过任何一家公司，更远远超过什么理想主义者组成的非营利团体。一个理想主义的自由爱好者或和平爱好者减一分，银聊零分，北极加一分。”</span></p>
+<p><span class="say" style="--h:253">“加起来。北极五分，自由两分，和平两分，银聊半分。要是你说他是一个同时也在乎自由的银聊的人，那么，好吧，那就是再加半分。我甚至要把最后一条——监视能力那条——乘以二，这样北极就是六分，其他任何解释都只有零分或者半分。”</span></p>
+<p><span class="say" style="--h:253">“再看看他花了多大力气，格拉迪亚斯。他找上了你，通过你，他摸进了一个讨论小组的三分之一。军队、议会、媒体平台——他和他的同伙径直穿过了所有这些地方。他唯一没能攻破的门，是那些他找不到钥匙的门：舵手会、法院、图谱资助。隐私不是奢侈品，它是我们到现在还站得住的原因。”</span></p>
+<p>塞拉不说话了。有好一会儿，格拉迪亚斯都沉默着。</p>
+<p><span class="say" style="--h:93">“对不起，塞拉。”</span></p>
+<p><span class="say" style="--h:93">“对不起，我没有足够信任你，没有让你参与进来。我爱你。我应该信任、尊重的不只是你的心，还有你的头脑。”</span></p>
+<p>又是沉默。</p>
+<p><span class="say" style="--h:93">“那我们该怎么办？”</span></p>
+<p><span class="say" style="--h:253">“我希望德尔瓦特错了，希望你在泽戈并不是毫无用处。我希望你在那边经历了那么多冒险，能拿出点了不起的东西来——毕竟这段时间我一直在哭，因为我们的孩子被困在一块被北极人团团围住的飞地里，而我还得替你收拾烂摊子。”</span></p>
+<p><span class="say" style="--h:93">“我想我现在已经很了解他们的军队了。或者说，他们的影子军队。泽戈的官方军队跟我们的一样千疮百孔，政府的其他部门也是同样的情形。可他们基本上把敏彭泰锦标赛建成了一种秘密的军事训练场，一直以来都在押注：真正要紧的那场战争会是一场无人机战争——更像敏彭泰，而不是像飞旋球之类的东西。”</span></p>
+<p><span class="say" style="--h:93">“我一直在尽力说服他们，下一场仗会在维里迪亚打，而不是在泽戈——我们在可能对他们构成威胁的技术和工业上领先，却在防御这件事上几乎完全没有想过——如果他们想自救，就得先过来帮我们。”</span></p>
+<p><span class="say" style="--h:253">“很好。为了孩子们，为了维里迪亚，也为了你自己，我希望你真能拿出一个把这事办成的计划。”</span></p>
+<p><span class="say" style="--h:253">“说服泽戈人只是成功了一半。我们还得说服维里迪亚人接纳他们。而且不是说服守护者，是说服议会。就是那个议会，它下面的小组委员会以十一比十的票数勉强通过了你的守护者资格，尽管他们根本没有任何正当理由对你有什么负面看法——除非他们有什么神奇的先见之明，早知道你有多天真，不过我很怀疑。”</span></p>
+<p><span class="say" style="--h:93">“我知道。”</span></p>
+<p><span class="say" style="--h:253">“你知道我们该怎么做到吗？”</span></p>
+<p><span class="say" style="--h:93">“我不知道。”</span></p>
+<p><span class="say" style="--h:253">“我可以试着想办法。但你得信任我。”</span></p>
+<p><span class="say" style="--h:93">“我会的，我保证。”</span></p>
+<p><span class="say" style="--h:253">“不许再有秘密了，好吗？”</span></p>
+<p><span class="say" style="--h:93">“好。”</span></p>
+<p><span class="say" style="--h:93">“我保证。”</span></p><p class="cta">读到这里有想法？来 <a href="https://t.me/SnowmoonCN" target="_blank" rel="noopener">电报读者群</a> 聊聊，勘误也欢迎。</p><nav class="nav"><a href="chapter-20.html">← 第 20 章</a><a href="chapter-22.html">第 22 章 →</a></nav></main><footer>原作 © Vitalik Buterin · 中文译本以 <a href="license.html">GPL v3</a> 发布 · AI 辅助翻译，修改于 2026-09-27 · <a href="https://vitalik.eth.limo/snowmoon/">英文原文</a> · <a href="snowmoon-zh-source.zip">可编辑源文本</a> · <a href="https://t.me/SnowmoonCN">电报读者群</a></footer></body></html>

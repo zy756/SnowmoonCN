@@ -1,0 +1,44 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Meldan, Veridia·3724 Harvestmoon 8"
+    ],
+    "lines_zh": [
+      "梅尔丹，维里迪亚 · 3724 年丰收月 8 日"
+    ]
+  },
+  {
+    "before": 25,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Mov ｜ → ｜ I've been following Delwart more, we should talk. ｜ 71256"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "莫夫 ｜ → ｜ 我最近一直在加紧盯德尔瓦特，我们得谈谈。 ｜ 71256"
+    ]
+  },
+  {
+    "before": 70,
+    "kind": "device",
+    "lines": [
+      "The Dead Hand of Egalitarianism, and the Path of Strength"
+    ],
+    "lines_zh": [
+      "平等主义的死亡之手，与强大之路"
+    ]
+  },
+  {
+    "before": 75,
+    "kind": "dateline",
+    "lines": [
+      "3724 Harvestmoon 9"
+    ],
+    "lines_zh": [
+      "3724 年丰收月 9 日"
+    ]
+  }
+]

@@ -1,0 +1,215 @@
+# Chapter 17
+
+Gladias walked forward along a path covered with trees on both sides, toward the large circular parliament building in front.
+
+When he arrived at a side door of the building, he tapped his watch on the green circle.
+
+The circle buzzed.
+
+The door opened. Gladias walked in, and followed the instructions that were being relayed by his watch. Forward, then right turn, then forward, then third door on the left.
+
+Gladias got to the door, and tapped his watch again.
+
+The door opened.
+
+Inside, he saw a man wearing a Veridian parliament robe.
+
+"Gladias, thank you for coming!", the senator exclaimed.
+
+"And thank you for seeing me, Senator Verdow!"
+
+"Please sit down."
+
+A robot slid into the room.
+
+"jie mo kai tu jie hei ja ma?", the robot asked.
+
+Gladias briefly stared in surprise.
+
+Verdow laughed.
+
+"I adjusted the settings to make it do that a few months ago. Just a little something as a reminder that other countries exist and that they matter."
+
+Verdow tapped a few buttons on the robot's screen, and turned the screen toward Gladias.
+
+The screen was in Dzegoban. Gladias's eyes wandered around with confusion.
+
+"Oh, if you want water, that's 'ja'. And if you want tea, that's 'kai ja'. Literally 'plant water'."
+
+Gladias clicked on 'kai ja'. If he's going to be in Dzego for a few months, might as well get acclimated and start drinking some tea - and knowing the local word for it. The robot beeped, signaling acceptance of the order, and began to quietly glide away from them. The room door briefly opened, and the robot exited the room.
+
+"So you think I should go to Dzego?"
+
+"You're obviously smart. Of course I have no idea what you say in your secret meetings, but judging from everything you said in the hearing, and from your original application to the Order years ago, I think you're a good and smart person. We need people like you to be more active in serving our country. Being a Keeper is nice, but come on, you're only one of over a thousand. I think getting and bringing back some first-hand experience from Dzego could be even more meaningful."
+
+"If you think it's a good idea, I'm happy to. But who should I talk to there? That's what I wanted to get your input on."
+
+Gladias intentionally omitted any mention of Zei - not out of any desire to hide that indirect connection, but because he wanted to get a fully independent answer from Verdow first.
+
+"Well my strongest connections are with some of their authors and musicians", he said, gently laughing. "Though I also know a few people in the government there, especially the security and health ministry. I'll send you their contacts, and give them a heads up. I wouldn't stop with them, but I think they can help get you started."
+
+"Thanks, that would help a lot!"
+
+"I only know two people from there, indirectly; my wife met them at a chance meeting in the Economics Institute in Freetown. Zei and Bai, they were in Minpentai."
+
+Verdow's eyes opened. "Honestly, you might have a better lead than I do. When you see the Minpentai games in Dzego, the players and the people who train them are clearly top-notch. If I had to find someone to defend me against the Arctics, I'd almost trust them over the actual Dzego army."
+
+"How advanced are Zei and Bai? Did they get into any of the championships?"
+
+"Last thing Seila told me, Zei won the semi-finals, and then they cancelled the finals when Redshire was invaded."
+
+"The semi-finals, like municipal level?"
+
+"National."
+
+Verdow stared with a mix of surprise and joy.
+
+"Your connections are definitely better than mine then. When you come back, you'll have to tell me more about Dzego!"
+
+"Anyway, I'll introduce you to the other folks I mentioned so you can see them when you come. It's always good to get more than one perspective."
+
+Gladias nodded appreciatively.
+
+"Oh, by the way, speaking of getting more perspectives, one of the Graph Funding stewards is here about to visit me. You want to talk to him too?"
+
+"About what?"
+
+"Oh, his work, how he's feeling about Graph Funding, and of course Dzego."
+
+"Sure, why not?"
+
+A few minutes later, the door opened, and another man, wearing a Veridian privacy robe but without the face cover and hood, walked in.
+
+"Belgor, good to see you again!"
+
+"Good to see you too, Verdow!"
+
+"And meet Gladias, he's a Keeper."
+
+"Nice to meet you, Belgor."
+
+"And nice to meet you, Gladias!"
+
+"So Gladias is thinking of going to Dzego soon. We thought that maybe you should tell him more about Graph Funding, and any advice on what he should do or learn in Dzego."
+
+"Sure, happy to. How familiar are you with how Graph Funding works?"
+
+"Honestly, not very."
+
+"Great."
+
+He took out his hand device, and pressed some buttons. A diagram opened up on the screen, and he showed it to Gladias.
+
+"This is the subgraph for airborne disease resistance. For each node on the graph, the cryptographic network randomly selects a committee, that makes the decision of what weights the edges right below that node get."
+
+"So it's secure in the same way the Courts and the Order of Steering are. Having something like that for funding is especially important now, given that the Arctics just did the same attack on Quadratic Funding that Bluewhale did but at ten times the scale - and of course any more traditional style of allocation, they would try to interfere with as well."
+
+"Oh you're definitely right. Even the Keepers are getting attacked lately, though with all the secrecy and internal communication barriers, at least for now the system is holding."
+
+"Oh is that so? Good to hear. Though I am sad that we don't have a good way to make both of these things more democratic. Listening to citizens' assemblies is good and Heralds are good, but they're not a substitute for actual public accountability."
+
+"Anyway, one difference between the Graph Funding design and how the Courts and the Order work is that Graph Funding allows even more specialization. After all, funding allocation is a pretty technical task."
+
+"The goal is to try to split up each decision of funding allocation into more manageable pieces. Don't ask 'what percent of all Veridian public funding should go to this study on UVC lamps'. Ask, what percent should go to health, then within health, what percent should go to airborne diseases, and so on."
+
+"And if one project benefits two areas: say, some lamp that's somehow useful both for UVC lamps and for defense, then the graph stops being a tree, it becomes a proper directed acyclic graph. One node can have multiple parents, and the funding you get along all paths adds up."
+
+"So a committee is responsible for allocating the funding going to each node among its direct children?"
+
+"Yes."
+
+"Can they remove children or make new ones?"
+
+"Yes, of course. That's how the graph gets made in the first place."
+
+"This is fascinating."
+
+"I mean, this all hinges completely on how effective these committees are, right? The more you can specialize, the more it might get captured by special interests, and the more you randomize, the more you get decisions made by people who know nothing about what they're deciding?"
+
+"Of course, that's always the tradeoff."
+
+"There's also another tradeoff. It turns out that it's fairly easy to get committees up to the point where they can tell bad projects from good ones, but very hard for them to tell good projects from great ones. So for the lower levels of the graph, there's been a movement lately to just randomize at the top end. If the committee says you're in the top ten percent, you have the same chance of getting in, no matter if you're at ninety one or ninety nine."
+
+"So the further someone is above ninety, the more they basically don't have to worry about optimizing for the committee at all, they can just do what feels right."
+
+"Exactly. Sometimes you don't actually want accountability, you want to give space for people's intrinsic motivation. The people at the very top may even be smarter than the committee. That's what randomize-above-cutoff does: accountability for those who won't succeed without it, and freedom from incentives for the best - they can convince the committee that their work is good enough with barely any effort at all."
+
+"Anyway, here's what it looks like zoomed in at the level of individual projects."
+
+"Is it wise to have these randomly-selected Graph Funding committees making decisions at that level of granularity?"
+
+"I'm not sure myself. The nice thing about this design is that it can always evolve without changing the structure. Committees could just decide to give the VNU Materials Science Lab 'ownership' of an entire category, and let them allocate internally. Actually, for the open source social media analysis, we basically did just that, eighty percent is just going to Silverchat."
+
+"Bluewhale is unhappy, but, hey, their choice to be so closed and proprietary with everything."
+
+"So how does this all connect to Dzego?"
+
+"Ah, well a lot of this tech does actually make its way over to Dzego, they're starting to take the air filters and ultraviolet lights more seriously - a few of them are getting paranoid that the Arctics might hit them with a deliberately-released pandemic at some point."
+
+"Is there any chance that the Arctics could hit them with a pandemic that won't eventually bounce right back to them?"
+
+"Well, if Arctic anti-pandemic technology shoots far enough ahead of the rest of the world, then yeah, they could release a pandemic that only they can effectively protect only their own people from. That's a big part of why it's so valuable to open-source all this stuff - at least the defensive things. Put the whole world on a more level playing field, so no one is in a position to light a fire and be the only ones with fireproof suits."
+
+"Anyway, if you end up going to Dzego, do tell me what you learn about their public health when you get back - I am curious!"
+
+Gladias opened the door to his house, and entered.
+
+Seila and the kids were already eating dinner.
+
+"Today is your first vote, isn't it?", Seila asked.
+
+"It is, glad you remembered!"
+
+"So are you leaving again this evening?", Zven asked.
+
+"Oh no, the in-person part was the discussions months ago, and the key registration, I did that right after my meetings at the Parliament."
+
+"There were also some discussions happening more recently in our Keeper discussion group online, though that chat automatically cut off seven days before the vote - have a quiet period to make more space for independent thought, the argument goes."
+
+"Oof, so the cutoff was after Redshire got annexed. What was that like?"
+
+"I think everyone who said we should cut military hardware out of the best tiers in the rubric went quiet. Eighteen then proposed a new amendment that increases the tax brackets, pushing up the incentives to open things up even more. I'll probably vote for that."
+
+"Glad to hear."
+
+"How did your Parliament meetings go?"
+
+"Very well. The Senator and the Graph Funding person both seemed quite supportive of me going. Though they said that Zei might be an even better contact to help me with my visit than anyone they knew!"
+
+"That actually makes sense, everyone knows the official Dzego government is not where any of the interesting action is happening."
+
+"I guess I'll talk to Zei and put you two in touch then!"
+
+Gladias, Seila and the kids took a few bites of their food. Soon, the dinner conversation resumed.
+
+"Febric, Hreda, want to share your news?"
+
+"We're going on an exchange trip to Northglade for the winter term!", Hreda exclaimed proudly.
+
+"Ooh, that's pretty far northeast, almost at the Arctic border", Gladias replied.
+
+"It's fun, we'll get to ski off mountains wearing a copter and then glide back down!", Hreda exclaimed. "And it's not like it's right at the border, Northglade is over two hundred kilometers inland. It will be my first time there!"
+
+"So what are you guys doing there?", Gladias asked.
+
+"Veridia's best math university is there," Hreda replied. "I'm in the top five percent in math in my class, so I got accepted to attend some special education there."
+
+"Same for me," Febric added. "Though I'm in computer science."
+
+"Didn't Lily also want to go to Northglade?"
+
+Lily was in the washroom, so she could not answer.
+
+"Vil said that he will take her in the summer if she gets to seventy-five percent in her exams."
+
+"She prefers summer, she doesn't like the cold as much."
+
+Gladias's hand device buzzed.
+
+"Well, voting on the hardware openness rubric started."
+
+This felt anti-climactic, Gladias thought. So much ceremony, in-person meetings, debate and work in the months leading up to the vote. And then the vote itself was just ... tapping buttons on a screen.
+
+It was reasonable, Gladias supposed. The way that the cryptography worked, as long as key registration was secure, this part could just be done on his own hardware at home. And even if Delwart did come knocking and demand to stare at him from behind his shoulder for the entire fifteen-longhour voting window, he had no way to prove to him that the key on his device even was the one registered - as opposed to being a distraction while the real voting was done by Mov, Seila or even Zven.
+
+Gladias took one last look at the screen, and nonchalantly pressed: No, Yes, Yes.

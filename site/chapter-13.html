@@ -1,0 +1,120 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第 13 章 · Snowmoon 中文版</title><meta name="description" content="Vitalik Buterin 科幻小说《Snowmoon》简体中文译本（GPL v3）">
+<link rel="stylesheet" href="style.css">
+<meta property="og:type" content="book"><meta property="og:site_name" content="Snowmoon 中文版"><meta property="og:title" content="第 13 章 · Snowmoon 中文版"><meta property="og:description" content="Vitalik Buterin 科幻小说《Snowmoon》简体中文译本：二次方投票、零知识证明、抽签选举与虚构城邦维里迪亚。">
+<meta property="og:image" content="https://book.routex.one/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://book.routex.one/og.png">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head><body>
+<header class="bar"><a href="index.html" class="home">Snowmoon · 雪月</a><a href="https://t.me/SnowmoonCN" class="tg" target="_blank" rel="noopener">电报群</a>
+<button class="theme" onclick="var d=document.documentElement,n=(d.dataset.theme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))==='dark'?'light':'dark';d.dataset.theme=n;try{localStorage.setItem('theme',n)}catch(e){}" aria-label="切换深浅色">◐</button></header>
+<main><h1>第 13 章</h1>
+<div class="dateline">梅尔丹，维里迪亚 · 3724 年丰收月 8 日</div>
+<p>格拉迪亚斯撩起布帘，走进隔间。这种布置他早已熟悉：一张桌子，桌子尽头摆着一盏雕花台灯和两枝花，墙角地上贴放着一台空气净化器。</p>
+<p>德尔瓦特已经坐在里面了。</p>
+<p><span class="say" style="--h:53">“守护者会议开得怎么样？”</span>德尔瓦特问。</p>
+<p><span class="say" style="--h:93">“挺有意思的。”</span>格拉迪亚斯答道。</p>
+<p><span class="say" style="--h:93">“说实话，我挺意外的。‘我们不该什么都插手、评分细则应该少一点’这种想法，提出来的远不止我一个。感觉差不多一半的一年级守护者都这么想，而且提得跟你希望我做的一样积极。”</span></p>
+<p><span class="say" style="--h:53">“这么说，至少有一部分人不想让你因为歌里的每一个脏字被征税，也不想你每盖一栋房子、一套公寓，都要在五六种无障碍标准上被管得死死的？”</span></p>
+<p><span class="say" style="--h:93">“我觉得现在还没那么夸张。我们又不像英格沃尔那样，干什么都要人填表。税不过是大家要盯着的又一个变量，跟电费一样。不过即便如此，我觉得守护者们也明白，我们得讲道理，不能规定得太死。”</span></p>
+<p><span class="say" style="--h:53">“他们的理由讲得好吗？”</span></p>
+<p><span class="say" style="--h:93">“很多时候比我讲得还好。二年级和三年级的往往更有疑虑，思路更传统一些。一碰到跟泽戈或者北极威胁有关的事，这一点就格外明显。”</span></p>
+<p>德尔瓦特叹了口气：<span class="say" style="--h:53">“这方面的宣传已经搞了几十年了。说实话，北极人自己也没把形象经营好；他们做的每件事——在红郡附近的无人机巡逻，甚至埃菲利昂的演讲——总是把人惹得火冒三丈。”</span></p>
+<p><span class="say" style="--h:93">“是啊，不少人觉得他们会对红郡搞一场更严重的破坏行动。”</span></p>
+<p><span class="say" style="--h:53">“那你觉得他们会吗？”</span></p>
+<p>格拉迪亚斯想了一会儿。他心里其实没底。虽然他估计短期内不会出什么事，却也担心答案可能是“会”。但他也清楚，只要对德尔瓦特承认这一点，就少不了挨一通长篇大论，对方会苦口婆心地让他明白他的消息来源有多偏颇——而这还是在他没跟德尔瓦特提起塞拉在自由城见过泽伊和拜的前提下。</p>
+<p><span class="say" style="--h:93">“大概不会。”</span></p>
+<p><span class="say" style="--h:53">“那就尽你所能，说服他们别担心。”</span></p>
+<p>一个机器人进来，给格拉迪亚斯端来一杯水和一份沙拉，给德尔瓦特送来一杯茶和一根长方形的营养棒。</p>
+<p>两人默默地喝着，然后吃了起来。</p>
+<p>他们又聊了一会儿，大约二十分钟后，格拉迪亚斯站了起来。</p>
+<p><span class="say" style="--h:93">“抱歉，我得走了，要跟家里人吃晚饭。”</span></p>
+<p><span class="say" style="--h:53">“当然该去，家人最重要！”</span></p>
+<p>格拉迪亚斯走出隔间，穿过大梅港的地下通道，朝出口走去。</p>
+<p>在通道里走了大约十分钟，格拉迪亚斯来到一条地面以上的步道。大梅港高大的入口大门就在正前方。格拉迪亚斯穿过闸机，重新回到了梅尔丹商业区那片绿植与玻璃、钢铁交织的景致之中。</p>
+<p>格拉迪亚斯向右一转，朝家的方向走去。</p>
+<p>他的手表震了一下。</p>
+<div class="device"><table><tr><td class="s">发件人</td><td class="s"></td><td class="s">消息</td><td class="s">时间</td></tr><tr><td class="s">莫夫</td><td class="s">→</td><td class="msg">我最近一直在加紧盯德尔瓦特，我们得谈谈。</td><td class="s">71256</td></tr></table></div>
+<p>格拉迪亚斯对着颈环低声说了句话，接通了莫夫的电话。</p>
+<p><span class="say" style="--h:93">“怎么了？”</span></p>
+<p><span class="say" style="--h:173">“这次他比平时大意了一点。”</span>莫夫说，<span class="say" style="--h:173">“我跟着他去了下一场会面，对方是另一个守护者。我订了隔壁的隔间，能通过墙壁的振动听到他们说话。”</span></p>
+<p><span class="say" style="--h:93">“天哪。大梅港的隔间比守护者用的那些差这么多？”</span></p>
+<p><span class="say" style="--h:173">“没错。我觉得知道这个区别的人还不够多。”</span></p>
+<p><span class="say" style="--h:93">“我们好几个月都在那种隔间里谈事情……”</span></p>
+<p><span class="say" style="--h:173">“是啊……好在现在知道了。”</span></p>
+<p><span class="say" style="--h:173">“总之，另外那个守护者在硬件开放度那项评分细则里，跟你不在一个讨论组。他完全认同德尔瓦特那一套。”</span></p>
+<p><span class="say" style="--h:93">“然后呢？”</span></p>
+<p><span class="say" style="--h:173">“整场谈话都在商量怎么说服那个组里的其他守护者站到他这边来。”</span></p>
+<p><span class="say" style="--h:173">“德尔瓦特非常强势。他好像真的很在乎这件事。而且，算上你和这个守护者，他已经在同一项评分细则的两个讨论组里都安插了联络人。拆分讨论组的全部意义，就是逼大家独立思考，结果他让所有人都看同一个人的眼色行事！”</span></p>
+<p><span class="say" style="--h:173">“总之，我确信这整件事比我们所有人想的都更有组织、水更深。”</span></p>
+<p><span class="say" style="--h:173">“下次你跟德尔瓦特谈的时候，我觉得你该向他要个说法了。”</span></p>
+<p><span class="say" style="--h:93">“你觉得会是什么？某种有组织的政治行动，想让维里迪亚变得更像自由城，只是去掉他们在意对抗北极人的那部分？所以不只是一个人信奉这套主张，他背后可能有一整张网络？”</span></p>
+<p><span class="say" style="--h:173">“我也很好奇。”</span></p>
+<p>格拉迪亚斯登上了自动巴士。</p>
+<p>他叹了口气。</p>
+<p><span class="say" style="--h:93">“我再好好想想。我现在回家，跟家里人吃晚饭。孩子们今天回来了。”</span></p>
+<p><span class="say" style="--h:173">“好，一定要想想。还有——保重。”</span></p>
+<p>格拉迪亚斯下了自动巴士，朝餐厅走去。他穿着隐私长袍，脚步匆匆，在烈日下出了一身汗。</p>
+<p>几分钟后，他到了。塞拉和四个孩子都已经坐在桌边。</p>
+<p><span class="say" style="--h:253">“惊喜吧！”</span>塞拉喊道，<span class="say" style="--h:253">“这回我们比你先到。”</span></p>
+<p>格拉迪亚斯脸上绽开了笑容。又见到孩子们，他很开心。自从上次去他们那边的房子待了一个晚上，已经过去两个月了；而孩子们离开他和塞拉的家，已经有半年了。</p>
+<p>格拉迪亚斯把关于德尔瓦特和莫夫的心思放到一边，刻意把注意力集中到家人身上。</p>
+<p>几分钟后，一个机器人滑到他们桌前，给费布里克和赫蕾达送来了饭菜。</p>
+<p><span class="say" style="--h:253">“数学考试考得怎么样？”</span>塞拉问赫蕾达。</p>
+<p><span class="say" style="--h:107">“百分之九十六。”</span>赫蕾达答道。</p>
+<p>塞拉脸上的神情立刻变成了担忧。她知道，这下再问莉莉就更尴尬了。她本打算紧接着问莉莉的，现在却只是向赫蕾达道了声祝贺。</p>
+<p>莉莉垂下眼睛，盯着自己面前的那块桌面。</p>
+<p>机器人又滑了过来，给兹文和莉莉送来了饭菜。兹文迫不及待地接过自己那份。莉莉一动不动。</p>
+<p>格拉迪亚斯拿起莉莉的饭，放在她面前的桌上。</p>
+<p>莉莉慢慢开始吃，一言不发。</p>
+<p>餐桌上安静下来。大家慢慢吃着，看着旁边屏幕上正在播放的职业飞旋球比赛。</p>
+<p>突然，飞旋球比赛的画面断了，换成了一段完全不同的播送。</p>
+<p>屏幕左侧出现了埃菲利昂勋爵的画像，右侧是一篇好几段长的文字。</p>
+<p>人人生而平等——维里迪亚的学校、海报、歌曲，还有其他一切，都在这样告诉你。</p>
+<p>惧结或许不这么说——可正因如此，去年审计时，惧结的税率被调到了第四档。</p>
+<p>谁也不比谁强；在维里迪亚，你只要敢说一个人比另一个人强，立刻就会被当成邪恶之徒赶出门外。</p>
+<p>但这种想法有一个根本的缺陷。如果一个人不可能比另一个人更好，那也就意味着，一个人不可能比从前的自己更好。否认等级的可能性，否认人与人之间存在高下之分，否认有些品质人人都认为是好的、却只有一部分人真正做得到——这同时也就否认了自我提升的可能性。</p>
+<p>别以为“优秀和成功有很多个维度”这种说法能让你免于这个结论。就算维度确实很多，在所有要紧的维度上，也总有人表现得更好，有人表现得更差。</p>
+<p>别再指望社会给你答案，指望维里迪亚的制度让人生变得公平。人生并不公平——也不应该公平。拥抱竞争吧。今天，你也许是弱者。但你身上有变强的潜能。不要相信那个谎言，说你现在这样就已经够好了。但要相信一个真理——你身上有变强的潜能。抓住这个机会。变得更强。强到日后回头看从前的自己，会感到羞愧。</p>
+<p>然后去找到其他的强者，那些会在你追求伟大的路上助你一臂之力的人。不是那些无条件爱你的人——那是慢性毒药，就像甜腻的糖果。而是那些在你赢的时候给你爱、在你输的时候给你冷眼的人。那些既给你激励、也给你惩戒的人。你之所以好，不是因为你是人，而是因为你能赢。唯有如此，你才能训练自己的心去热爱胜利，发挥出你真正的潜能。</p>
+<p>此致，</p>
+<p>埃菲利昂勋爵</p>
+<p>北极帝国驻维里迪亚领事</p>
+<div class="device"><div>平等主义的死亡之手，与强大之路</div></div>
+<p>格拉迪亚斯飞快地扫了一遍这段文字，环顾四周。塞拉已经离开座位，还没等餐厅的工作人员赶到，就在研究怎么把屏幕的电源拔掉了。</p>
+<p>费布里克和赫蕾达继续吃饭。兹文好奇地看着屏幕上的文字，思绪在一段段之间跳来跳去，时不时又转过去看塞拉想办法关屏幕。莉莉则只是盯着那段文字。</p>
+<p>屏幕终于黑了。</p>
+<p>一家人都沉默了。费布里克拿出手持设备，开始复习功课。莉莉也拿出手持设备，开始用力地点个不停。格拉迪亚斯看不见她在做什么，不过她好像在玩什么游戏。</p>
+<p>一家人静静地吃着饭。五分钟后，莉莉的脸突然亮了起来，她小声地欢呼了一下。她放下手持设备，加入了家人，开始吃饭。尽管她比其他人开始得晚，却比所有人都先吃完。</p>
+<div class="dateline">3724 年丰收月 9 日</div>
+<p>格拉迪亚斯拉开隔板，走进隔间。其他守护者都已经到了。</p>
+<p><span class="say" style="--h:267">“又见面了，六号！”</span>十三号喊道。</p>
+<p><span class="say" style="--h:93">“等等，你怎么知道我是六号？”</span></p>
+<p><span class="say" style="--h:267">“凭直觉。大概是你肢体语言里的某个细节吧——人家不是说嘛，我们百分之九十的交流都是潜意识的。”</span></p>
+<p><span class="say" style="--h:93">“嚯，看来就算我们把脸遮住，就算用颈环说话，再用每次都重新随机生成的AI合成声音把话传出去——虽然我到现在还分不出你们谁是男谁是女——这些物理隐私手段也还是有局限的。好吧，我也很高兴见到你，十八号。”</span></p>
+<p><span class="say" style="--h:267">“我是十三号！”</span>十三号答道，<span class="say" style="--h:267">“看来对你来说，交流里潜意识的部分可能只有百分之三十。”</span></p>
+<p><span class="say" style="--h:267">“顺便说一句，我是女的。我想这个说了也无妨，只不过让我的匿名集缩小了一半而已。”</span></p>
+<p><span class="say" style="--h:267">“总之，这是我们大约两个月后就这项评分细则投票之前的最后一次碰头了。”</span></p>
+<p><span class="say" style="--h:93">“我们有提案了吗？”</span></p>
+<p>零号抬起了头。</p>
+<p><span class="say" style="--h:347">“我起草了修改措辞，”</span>他插话道，<span class="say" style="--h:347">“把所有军事、监控和反监控产品排除在开放税评分细则的优惠档位之外。这些东西一律最低第三档，没有例外。”</span></p>
+<p><span class="say" style="--h:93">“反监控也算？”</span></p>
+<p><span class="say" style="--h:347">“当然。它们都是同一场零和博弈的一部分。”</span></p>
+<p>十八号开口了。</p>
+<p><span class="say" style="--h:67">“我还是觉得你们完全没搞懂北极威胁。他们有技术优势。这不是一场对等的博弈。如果每家都得在这些领域自己造技术，北极人就赢定了。”</span></p>
+<p><span class="say" style="--h:187">“得了吧！他们不会进攻的。自从无人机发明以来，他们的无人机已经在各地嗡嗡地转了好多年了。他们不会在红郡搞出什么疯狂的事来的，好吗？”</span></p>
+<p><span class="say" style="--h:67">“你真这么想？”</span></p>
+<p>格拉迪亚斯环顾房间。他解读肢体语言的本事确实不怎么样。但据他判断，有三个人倾向于把军事、监控和反监控从硬件开放度评分细则里剔除，十三号持中立，只有十八号和一号反对。</p>
+<p>前一天跟莫夫的那通电话让他起了疑心。之前他的态度更开放些。现在他开始觉得，今年干脆对这项评分细则什么都不动，或许才是最好的。他的脑子转来转去，琢磨怎样才能把局面往更有利的方向推一推。想了大约半分钟，他有了主意。</p>
+<p><span class="say" style="--h:93">“我刚想到一个办法。”</span></p>
+<p>其他人都转向格拉迪亚斯。</p>
+<p><span class="say" style="--h:93">“这件事我们不必现在就定。离投票还有两个月，对吧？”</span></p>
+<p><span class="say" style="--h:267">“没错。”</span></p>
+<p><span class="say" style="--h:93">“十八号，你觉得北极帝国会在多长时间内有所行动，对红郡搞一场更严重的破坏？”</span></p>
+<p><span class="say" style="--h:67">“肯定不到两个月。”</span></p>
+<p><span class="say" style="--h:93">“一号，我记得你也认为我们应该把北极人当成真正的威胁。你估计是多久？”</span></p>
+<p><span class="say" style="--h:200">“十天到二十天吧，也许一个月。不会是什么太剧烈的动作，但总会出点破坏。可能会被报道成一场大事故，向来都是这样。”</span></p>
+<p><span class="say" style="--h:93">“那这样如何？当然，这不具约束力，只是个初步的想法。我们都等两个月，看看会发生什么。如果没有袭击，那大家就更倾向于接受零号的修正案。可如果有，那我们就维持评分细则不变，甚至把各档税率之间的差距再拉大一些。”</span></p>
+<p>零号压低声音嘟囔了几句不满，但什么也没说出口。他显然不喜欢被这样钉死。可他也想不出任何理由来反驳格拉迪亚斯的提议。</p>
+<p>十八号的反应似乎也差不多。跟零号一样，他不喜欢被钉死，但也不得不承认，自己想不出更好的办法来打破僵局。</p>
+<p><span class="say" style="--h:93">“那就先这么定了。”</span></p><p class="cta">读到这里有想法？来 <a href="https://t.me/SnowmoonCN" target="_blank" rel="noopener">电报读者群</a> 聊聊，勘误也欢迎。</p><nav class="nav"><a href="chapter-12.html">← 第 12 章</a><a href="chapter-14.html">第 14 章 →</a></nav></main><footer>原作 © Vitalik Buterin · 中文译本以 <a href="license.html">GPL v3</a> 发布 · AI 辅助翻译，修改于 2026-09-27 · <a href="https://vitalik.eth.limo/snowmoon/">英文原文</a> · <a href="snowmoon-zh-source.zip">可编辑源文本</a> · <a href="https://t.me/SnowmoonCN">电报读者群</a></footer></body></html>

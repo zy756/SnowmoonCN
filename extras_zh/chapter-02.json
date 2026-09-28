@@ -1,0 +1,76 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Pafogai Du, Dzego·3724 Snowmoon 5"
+    ],
+    "lines_zh": [
+      "帕佛盖都，泽戈 · 3724 年雪月 5 日"
+    ]
+  },
+  {
+    "before": 5,
+    "kind": "device",
+    "lines": [
+      "zui fia kun zun"
+    ],
+    "lines_zh": [
+      "zui fia kun zun"
+    ]
+  },
+  {
+    "before": 22,
+    "kind": "device",
+    "lines": [
+      "MUN GUI 1842 ｜ TEI 70000 ｜ ✓"
+    ],
+    "lines_zh": [
+      "MUN GUI 1842 ｜ TEI 70000 ｜ ✓"
+    ]
+  },
+  {
+    "before": 36,
+    "kind": "device",
+    "lines": [
+      "pa jan li sun zo",
+      "zai gau fe pa jan",
+      "go li sun zo",
+      "bai gau fe go"
+    ],
+    "lines_zh": [
+      "pa jan li sun zo",
+      "zai gau fe pa jan",
+      "go li sun zo",
+      "bai gau fe go"
+    ]
+  },
+  {
+    "before": 50,
+    "kind": "device",
+    "lines": [
+      "x 106",
+      "[0, 999999]",
+      "x 106",
+      "[0, 99]"
+    ],
+    "lines_zh": [
+      "x 106",
+      "[0, 999999]",
+      "x 106",
+      "[0, 99]"
+    ]
+  },
+  {
+    "before": 65,
+    "kind": "device",
+    "lines": [
+      "x 2 * 106",
+      "[0, 499999]"
+    ],
+    "lines_zh": [
+      "x 2 * 106",
+      "[0, 499999]"
+    ]
+  }
+]

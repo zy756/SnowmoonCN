@@ -1,0 +1,70 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Elenar Forest, Veridia·3725 Snowmoon 29"
+    ],
+    "lines_zh": [
+      "埃莱纳森林，维里迪亚 · 3725 年雪月 29 日"
+    ]
+  },
+  {
+    "before": 32,
+    "kind": "device",
+    "lines": [
+      "GroupNorth",
+      "GroupCenter",
+      "GroupSouth",
+      "GroupNaval",
+      "Northglade"
+    ],
+    "lines_zh": [
+      "北方集群",
+      "中央集群",
+      "南方集群",
+      "海军集群",
+      "北林"
+    ]
+  },
+  {
+    "before": 49,
+    "kind": "dateline",
+    "lines": [
+      "3725 Snowmoon 30"
+    ],
+    "lines_zh": [
+      "3725 年雪月 30 日"
+    ]
+  },
+  {
+    "before": 53,
+    "kind": "device",
+    "lines": [
+      "Northglade"
+    ],
+    "lines_zh": [
+      "北林"
+    ]
+  },
+  {
+    "before": 69,
+    "kind": "device",
+    "lines": [
+      "Northglade"
+    ],
+    "lines_zh": [
+      "北林"
+    ]
+  },
+  {
+    "before": 71,
+    "kind": "device",
+    "lines": [
+      "Northglade"
+    ],
+    "lines_zh": [
+      "北林"
+    ]
+  }
+]

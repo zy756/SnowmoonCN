@@ -1,0 +1,88 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Freetown, United Cities·3724 Mistime 22"
+    ],
+    "lines_zh": [
+      "自由城，联合城邦 · 3724 年雾月 22 日"
+    ]
+  },
+  {
+    "before": 13,
+    "kind": "device",
+    "lines": [
+      "Taxi fare",
+      "Driver base fare ｜ ｜ 3.69",
+      "Per-minute toll ｜ 9 min ｜ 1.89",
+      "Per-kilometer toll ｜ 5.65 km ｜ 1.26",
+      "Acceleration and deceleration toll ｜ 113 m/s Δv ｜ 1.03",
+      "Road congestion toll ｜ ｜ 1.50",
+      "Road congestion toll ｜ ｜ 1.00",
+      "Road congestion toll ｜ ｜ 2.25",
+      "Total ｜ ｜ 12.52"
+    ],
+    "lines_zh": [
+      "车费",
+      "司机起步价 ｜ ｜ 3.69",
+      "按分钟计费 ｜ 9 分钟 ｜ 1.89",
+      "按公里计费 ｜ 5.65 公里 ｜ 1.26",
+      "加减速费 ｜ 113 m/s Δv ｜ 1.03",
+      "道路拥堵费 ｜ ｜ 1.50",
+      "道路拥堵费 ｜ ｜ 1.00",
+      "道路拥堵费 ｜ ｜ 2.25",
+      "合计 ｜ ｜ 12.52"
+    ]
+  },
+  {
+    "before": 89,
+    "kind": "device",
+    "lines": [
+      "x"
+    ],
+    "lines_zh": [
+      "x"
+    ]
+  },
+  {
+    "before": 103,
+    "kind": "device",
+    "lines": [
+      "x",
+      "x",
+      "x"
+    ],
+    "lines_zh": [
+      "x",
+      "x",
+      "x"
+    ]
+  },
+  {
+    "before": 120,
+    "kind": "device",
+    "lines": [
+      "x",
+      "x",
+      "x",
+      "x",
+      "x",
+      "x",
+      "x",
+      "x",
+      "x"
+    ],
+    "lines_zh": [
+      "x",
+      "x",
+      "x",
+      "x",
+      "x",
+      "x",
+      "x",
+      "x",
+      "x"
+    ]
+  }
+]

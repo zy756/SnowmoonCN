@@ -1,0 +1,139 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第 2 章 · Snowmoon 中文版</title><meta name="description" content="Vitalik Buterin 科幻小说《Snowmoon》简体中文译本（GPL v3）">
+<link rel="stylesheet" href="style.css">
+<meta property="og:type" content="book"><meta property="og:site_name" content="Snowmoon 中文版"><meta property="og:title" content="第 2 章 · Snowmoon 中文版"><meta property="og:description" content="Vitalik Buterin 科幻小说《Snowmoon》简体中文译本：二次方投票、零知识证明、抽签选举与虚构城邦维里迪亚。">
+<meta property="og:image" content="https://book.routex.one/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://book.routex.one/og.png">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head><body>
+<header class="bar"><a href="index.html" class="home">Snowmoon · 雪月</a><a href="https://t.me/SnowmoonCN" class="tg" target="_blank" rel="noopener">电报群</a>
+<button class="theme" onclick="var d=document.documentElement,n=(d.dataset.theme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))==='dark'?'light':'dark';d.dataset.theme=n;try{localStorage.setItem('theme',n)}catch(e){}" aria-label="切换深浅色">◐</button></header>
+<main><h1>第 2 章</h1>
+<div class="dateline">帕佛盖都，泽戈 · 3724 年雪月 5 日</div>
+<p>芬和泽伊下了自动巴士，沿着洪敏街往前走。</p>
+<p>洪敏街是帕佛盖都比较热闹的商业兼工业街道之一。街道两侧，一块块闪着彩灯的招牌推销着各式各样的电子产品：手持设备、手表、计算盒、照明、电池、传感器，应有尽有。商店中间夹着一座座微型工厂，制造着各种精密设备，有几处甚至在造计算机芯片。这些建筑都只有一两层高，许多招牌立在通往地下的楼梯口上方。</p>
+<p>左边有两家挨着的店。一家卖各种传感器——摄像头、麦克风、生物和化学传感器、空气质量监测仪，当然，还有专门用来探测传感器的传感器。另一家卖防传输箔——一种常见材料，许多房间默认都会铺上，用来屏蔽无线信号。隐私与透明，监控与反监控——这便是保护泽戈人安全的一体两面。</p>
+<p>两家店之间，一块招牌上写着几个大字：</p>
+<div class="device"><div>zui fia kun zun</div></div>
+<p>“地下安全屋”。</p>
+<p>“gie fe kiu kai ci bin hu。”泽伊在心里默念。“扎根，无首。”半个世纪以来，泽戈一直靠这条策略成长壮大、保全自身。</p>
+<p>芬和泽伊继续往前走，享受着马路和人行道之间树下的阴凉。</p>
+<p>一架无人机嗡嗡地从头顶飞过。片刻之后，他们的手表轻轻震了一下——软件已经跑完认证协议，确认这是一架友方安保无人机，来自一个通过了全部检验的批次，运行的是友方算法。整个过程——飞过、认证、确认——在几百毫拍之内就完成了，芬和泽伊几乎都没察觉到发生过什么。</p>
+<p><span class="say" style="--h:80">“昨晚的敏彭泰比赛怎么样？”</span>芬问。</p>
+<p><span class="say" style="--h:347">“我拿了第三名！总算琢磨出一种墙体结构，能把他们的滑翔机原样弹回去，把他们的地盘搅得天翻地覆。”</span></p>
+<p><span class="say" style="--h:347">“你呢？”</span></p>
+<p><span class="say" style="--h:80">“在无聊学校里复习地理考试。”</span></p>
+<p><span class="say" style="--h:347">“我猜，很无聊？”</span></p>
+<p><span class="say" style="--h:80">“是啊，我们在学联合城邦，他们就只让我们背那些共治比例。自由城在德万维尔有百分之五的票，德万维尔在红郡有百分之十五的票，红郡又有……”</span></p>
+<p><span class="say" style="--h:347">“你对整套体系到底管不管用，有什么新看法吗？”</span></p>
+<p><span class="say" style="--h:80">“哪儿啊，批判性治理研究要到大学才开。”</span></p>
+<p><span class="say" style="--h:347">“就像化学到高中才开一样？”</span></p>
+<p>芬笑了。<span class="say" style="--h:80">“那他们现在打算在去中心化大学里用十天讲完一整年的批判性治理研究吗？”</span></p>
+<p>去中心化大学——“Decentralized University”，泽戈语叫 dzu hu sun du——正是他们要去的地方。泽伊想起得确保准时到，看了一眼手表。</p>
+<p><span class="say" style="--h:347">“时间刚到六万九千。教室的确切位置随时都会解密广播出来。”</span></p>
+<p>手表震了一下。泽伊收到一条通知。</p>
+<div class="device"><table><tr><td class="msg">MUN GUI 1842</td><td class="s">TEI 70000</td><td class="s">✓</td></tr></table></div>
+<p>泽伊停下脚步，把手表给芬看。</p>
+<p><span class="say" style="--h:347">“咦，黄色对勾。看来他们升级到新的密码学证明系统了，今天到了课上得记着同步一下我们的密码。”</span></p>
+<p><span class="say" style="--h:80">“又升级？”</span></p>
+<p><span class="say" style="--h:347">“大概吧。听说北极帝国越来越咄咄逼人，所以我们在加强安保。”</span></p>
+<p><span class="say" style="--h:347">“好吧，不管怎样，上面写的是蒙贵街 1842 号。我们……刚走过洪敏街 1990 号。所以在我们后面。”</span></p>
+<p><span class="say" style="--h:80">“我们在这儿左拐上第 20 街，然后在蒙贵街再左拐？”</span></p>
+<p>泽伊在脑子里把账过了一遍。有名字的街道间隔两百米，从 H 到 M 是四条街。门牌号就是米数，所以从 2000 走到 1842 得走一百五十八米。八百加一百五十八是……九百五十八米。课在七万开始，所以他们还有不到一千拍，说得口语一点，十分钟。慢走的速度是每拍一米，而芬和泽伊走得快。所以来得及。</p>
+<p><span class="say" style="--h:347">“好主意！”</span></p>
+<p>他们加快脚步，确保能提前赶到。</p>
+<p>几分钟后，他们到了。<span class="say" style="--h:307">“哎，芬，你来啦！”</span>一个年轻女人喊道。芬和泽伊被领着走下两段有些落灰的楼梯。</p>
+<p>到了底下，另一个男人正等着，把他们拦住了。<span class="say" style="--h:173">“计划有变，现在改在负一楼对面那间了。”</span></p>
+<p>泽伊叹了口气。</p>
+<p>他们四个又走上一段楼梯，进了一间大屋子，在一排椅子上挨着坐下。</p>
+<p>墙上贴满了一层厚厚的、仓促铺就的防传输箔。箔面上涂着泽戈的经典审美：一群可爱的卡通动物在玩电子小玩意儿和化学实验器材，背景是绿树蓝天。屋子前方，左边立着一只充气的卡通猪，右边是一只仓鼠。猪的左手拿着一个计算器。仓鼠的右手拿着一小瓶绿色的液体。它俩各用另一只手，一起举着一张写着去中心化大学校训的海报：</p>
+<div class="device"><div>pa jan li sun zo</div><div>zai gau fe pa jan</div><div>go li sun zo</div><div>bai gau fe go</div></div>
+<p>“一人向学，一人得自由。举国向学，国家得强盛。”</p>
+<p>在他们身后，讲师走了进来，关上门。泽伊看了一眼手表。70,001。</p>
+<p><span class="say" style="--h:120">“欢迎来上物理课。”</span>讲师说。</p>
+<p><span class="say" style="--h:120">“今天，我想试着介绍一个重要的课题，我觉得几乎人人都会被它搞糊涂：热力学。”</span></p>
+<p>专心些的学生收起手持设备，不再说话，准备听讲。其他人一开始还在聊，但很快也安静了下来。</p>
+<p>泽伊旁边一个女孩把手伸到桌沿底下，看也不看地用一根手指沿着桌沿摸了一遍——这是习惯，不是认真搜查。另一个学生习惯性地拿着手持设备在屋里挥来挥去，想探测有没有什么来路不明的电子设备。没人说什么。从来都没人说什么。</p>
+<p><span class="say" style="--h:120">“在座有谁听说过‘熵’这个词，是在信息论或密码学的语境里？”</span></p>
+<p>大约四分之三的学生举了手。</p>
+<p><span class="say" style="--h:120">“那又有谁听说过‘熵’这个词，是在热力学第二定律的语境里——熵总是增加，其中一种表现就是热总是从热的地方流向冷的地方，从不倒过来？”</span></p>
+<p>几乎所有学生都举了手。熵是科幻小说最爱的题材。</p>
+<p><span class="say" style="--h:120">“那现在，谁觉得自己能解释这两者之间的联系？”</span></p>
+<p>没人举手。</p>
+<p><span class="say" style="--h:120">“好。那我们开始吧。”</span></p>
+<p>讲师按了一下手表上的按钮，前面的墙上出现一张幻灯片：</p>
+<div class="device"><div>x 106</div><div>[0, 999999]</div><div>x 106</div><div>[0, 99]</div></div>
+<p><span class="say" style="--h:120">“想象我们有两罐气体。每罐有一百万个分子。但左边那罐的分子运动得快得多。假设在左边那罐里，你可以用六位数来表示速度，从零到 999,999。而右边那罐的分子运动得很慢，所以你可以用六位数来表示速度，从零到 99。”</span></p>
+<p><span class="say" style="--h:120">“谁能告诉我，要完整表示左边这罐里发生的一切，需要多少位数字？假设对方已经知道那是气体、有一百万个分子，唯一的自由变量就是速度。”</span></p>
+<p>“六百万！”大约十个学生齐声喊道。</p>
+<p><span class="say" style="--h:120">“很好。那右边这罐呢？”</span></p>
+<p>“两百万！”</p>
+<p><span class="say" style="--h:120">“那我们来回顾一下。从你的角度，作为观察者，你知道这两罐都是气体，知道是什么气体，也知道有一百万个分子。但你不知道每个分子各自的速度。所以对左边这罐来说，你不知道的信息量是……？”</span></p>
+<p>“六百万位数字！”</p>
+<p><span class="say" style="--h:120">“右边呢？”</span></p>
+<p>“两百万位数字！”</p>
+<p><span class="say" style="--h:120">“所以你不知道的信息总共是八百万位数字。现在，如果我们把两罐合在一起，让气体混合，会怎么样？我们对那里的速度会知道些什么？”</span></p>
+<p>泽伊举起了手。</p>
+<p><span class="say" style="--h:120">“好，你来？”</span></p>
+<p><span class="say" style="--h:347">“分子会随机地互相碰撞弹开。等它们稳定下来，因为能量守恒，速度会落在中间某处，在零到五十万之间。”</span></p>
+<p><span class="say" style="--h:120">“对，非常好！严格来说，能量和速度的平方成正比，这些速度该怎么表示也可以争论一番，顺便说一句，我们还完全忽略了位置，不过我们就简单点，说零到五十万吧。”</span></p>
+<p>讲师又点了一下手表。下一张幻灯片。</p>
+<div class="device"><div>x 2 * 106</div><div>[0, 499999]</div></div>
+<p><span class="say" style="--h:120">“那现在，要表示我们对这个新系统所不知道的信息，需要多少位数字？”</span></p>
+<p>另一个学生举起了手。</p>
+<p><span class="say" style="--h:120">“请说。”</span></p>
+<p><span class="say" style="--h:200">“从零到五十万，比五位数多，但又不到六位数，按对数算，每个分子应该是五点七位左右。”</span></p>
+<p><span class="say" style="--h:120">“那总数是多少？”</span></p>
+<p><span class="say" style="--h:200">“一千一百四十万位数字。”</span></p>
+<p><span class="say" style="--h:120">“非常好！所以结论是：把两罐混合之后，我们失去了知识。我们对这团气体的了解比以前少了。而且我们可以量化失去了多少知识：三百四十万位数字。”</span></p>
+<p><span class="say" style="--h:120">“当我们说热从热处流向冷处时熵会增加，指的就是这个。每一丁点热量，给冷的东西加热所增加的未知位数，比给热的东西降温同样一丁点所减少的未知位数要多，所以未知的总量就上升了。你对这两个瓶子能做的任何一种操作，平均而言，都会让未知总量要么保持不变，要么上升——只要你在做任何有用的事，或者犯了任何错误，它就会上升。这就是热力学第二定律。”</span></p>
+<p>讲师顿了顿。</p>
+<p><span class="say" style="--h:120">“那么，我们怎么证明这一点？”</span></p>
+<p>没有学生回答，但许多人似乎好奇地往前倾了倾身子。</p>
+<p><span class="say" style="--h:120">“我们用反证法。假设我们真有一个能倒着来的魔法程序：从未知量为一千一百四十万位数字的混合罐开始，把我们带回未知量为八百万位数字的两个分开的罐子。”</span></p>
+<p>泽伊又举起了手。</p>
+<p><span class="say" style="--h:347">“我能试试吗？”</span></p>
+<p><span class="say" style="--h:120">“请。”</span></p>
+<p><span class="say" style="--h:347">“我记得我们宇宙的物理定律是完全时间可逆的，对吧？所以如果你能朝一个方向做一件事，你总能把同样的步骤倒过来再做一遍。”</span></p>
+<p><span class="say" style="--h:120">“没错。那么，为什么在逐个原子的物理层面上的这种时间可逆性，恰恰意味着温度均衡是一件你无法逆转的事？这不是个悖论吗？”</span></p>
+<p><span class="say" style="--h:347">“嗯，如果我们能把中等温度分离成热和冷，那我们就能做到无限的数据压缩。”</span></p>
+<p><span class="say" style="--h:347">“比如说，想象你有一个包含一千一百四十万位数据的文件。你造一个非常完美的双联罐，再造一把枪，能以恰到好处的速度把气体分子射出来。然后，你用你那个程序让气体分离，再把罐子分开，最后测量速度。你会得到八百万位数字。”</span></p>
+<p><span class="say" style="--h:347">“而因为我们宇宙的物理是时间可逆的，你就能把同样的事倒过来做：拿那八百万位数字，放进枪里，以正确的速度射出气体分子，把那个完全相同的分离程序倒着执行一遍，测量一下，你就能得到你原来那一千一百四十万位数字，不管它们是什么。时间反演过程的输出，必须等于原过程的输入。这样我们就得到了一种完全通用的方法，能把任意一千一百四十万位数字装进八百万位数字里。而如果我们能做到这一点，就能一遍又一遍地做下去，把整个星球装进八百万位数字里，甚至压得更小，装进八位数字里。这是不可能的！”</span></p>
+<p><span class="say" style="--h:120">“完全正确。或者换句话说，在一个物理规律时间可逆的宇宙里，你不可能从不知道更多的事情，变成不知道更少的事情。在一个物理规律时间不可逆的宇宙里，你就可以，因为你可以直接把所有你不知道的东西都毁掉。”</span></p>
+<p>“就跟北极皇帝一样！”泽伊很想喊出来。但他忍住了。把一个如此显而易见、大概一半学生心里已经想到的笑话公开讲破，是很不得体的。讲师和学生们短暂地停了一下，品味这个笑话，嘴角暗暗一扬，享受了片刻心照不宣的默契。然后讲师接着往下讲。</p>
+<p><span class="say" style="--h:120">“但在一个物理规律时间可逆的宇宙里，总有你不知道的东西，而这种无知只能被挪来挪去，并且不可避免地增加。我们最多能做到的，是从不知道我们在乎的事，变成不知道我们不在乎的事。就像从不懂热力学，变成不知道那些作为废热从放这些幻灯片的投影仪里跑出来的分子的速度。”</span></p>
+<p><span class="say" style="--h:120">“讲得太精彩了，孩子。你叫什么名字？”</span></p>
+<p><span class="say" style="--h:347">“泽伊。”</span></p>
+<p><span class="say" style="--h:120">“好，泽伊，你讲得完——”</span></p>
+<p>隔壁房间突然传来一声巨响。整间屋子都在震动。</p>
+<p>不到一拍之后，一部分墙壁和地板轰然坍塌。</p>
+<p>泽伊接下来只知道，一块石头碎片砸中了他的胳膊。</p>
+<p>泽伊发现自己倒在地上，被撞翻的椅子就在身边。</p>
+<p>他的脑海里闪过那个在最后一刻把他们改派到另一个房间的男人——比他们原本该去的地方高了一层。</p>
+<p>他立刻明白了。去中心化大学采取的所有额外预防措施——密码学、突然更换地点、防传输箔——都不只是一场游戏。北极帝国也不只是地理课上的一个单元。这些都是真的。</p>
+<p><span class="say" style="--h:120">“大家都没事吧？有人受伤吗？”</span>讲师大喊。</p>
+<p>泽伊想了一下，琢磨自己的胳膊伤得够不够重、值不值得喊疼。他试着把胳膊抬起来再放下。胳膊毫无反应。</p>
+<p>接着他感觉到两只手抓住了他，把他从地上拉起来，扶到一把椅子上。泽伊转过头。是芬——让泽伊松了口气的是，他毫发无损。</p>
+<p>烟雾弥漫了整间屋子。每个学生的手表——它们的诸多功能里就包括空气质量监测——都开始大声鸣叫。学生们点了点手表，鸣叫声很快平息下来。学生们慢慢互相搀扶着站起来，讲师则四处走动，查看有没有谁急需帮助。</p>
+<p>讲师走到泽伊跟前，泽伊默默指了指自己的左臂。讲师拿出手持设备扫描了一下。AI 生成的结果填满了屏幕下方。</p>
+<p><span class="say" style="--h:120">“疼吗？”</span>讲师问。</p>
+<p><span class="say" style="--h:347">“有点，但我撑得住。”</span></p>
+<p><span class="say" style="--h:120">“看起来是骨折了。今天就去医院查一下。去得越早，好得越快。”</span></p>
+<p><span class="say" style="--h:80">“我带你去。”</span>芬补了一句，<span class="say" style="--h:80">“得确保你月底比赛的时候没事。”</span></p>
+<p>讲师继续往前走。屋里满是烟。空气质量警报还在尖啸，但芬和泽伊能听出讲师在挨个问学生<span class="say" style="--h:120">“你没事吧？”</span>，还有学生回答<span class="say" style="--h:120">“我没事”</span>。</p>
+<p>空气过滤器开到了最大功率，烟很快散了。芬和泽伊对视了一眼。有那么一会儿，学生们和讲师坐在一片尴尬的沉默里。</p>
+<p>泽伊用没受伤的那只胳膊撑着桌子，站了起来。<span class="say" style="--h:347">“我觉得，我们对这面墙的了解，比两分钟前少多了。”</span>他开玩笑说。</p>
+<p>几个学生笑了笑，或是轻轻笑出声来。他对听众情绪的判断很准。</p>
+<p><span class="say" style="--h:120">“没有别人受伤了，你们都确定吗？”</span></p>
+<p>“我没事。”大约十个人回答。</p>
+<p><span class="say" style="--h:120">“好了，我想今天的熵已经够多了。我们回家吧。”</span></p>
+<p>芬和泽伊比其他人在教室里多待了一会儿。泽伊在椅子上重新坐下。芬拿起一把扫帚，把所有碎石都扫到一边。很快，屋里只剩下他们俩和讲师。</p>
+<p><span class="say" style="--h:347">“哇，北极人越来越咄咄逼人了。他们以前可不会对物理教育下手。”</span></p>
+<p><span class="say" style="--h:80">“不管是谁在最后一刻换了我们的教室，那人真是个天才。刚才救了我们的命。”</span></p>
+<p><span class="say" style="--h:120">“遗憾的是，我估计从现在开始只会越来越糟。”</span></p>
+<p>芬和泽伊震惊地看着讲师。</p>
+<p><span class="say" style="--h:120">“记住，他们的算盘是永久压制我们的重工业和技术水平。让我们活着，但只能活在一个永远构不成威胁的文明层次上。”</span></p>
+<p><span class="say" style="--h:120">“而我们的对策是‘gie fe kiu kai ci bin hu’：扎根，无首。用分布式制造来打造我们所有的工具。让官方政府继续运转，像我们一百年前战败时那样迟缓而腐败，但用密码学来匿名地协调那些真正要紧的决策，不需要任何暴露在外的个人领袖来掌舵。整个去中心化大学已经是这样运作的了。很快，我们的发电、农业和医疗也会有很大一部分这样运作。”</span></p>
+<p><span class="say" style="--h:120">“这一招很有效。经过最近这几年，我们终于差不多到了这样一个水平：完全不需要任何集中式的重工业，也能自己站起来。问题是，看样子他们开始察觉了。”</span></p>
+<p>“Dze go ba fau gie。”芬和泽伊齐声说道，平静，却带着不屈。</p>
+<p>“泽戈必将再起。”</p><p class="cta">读到这里有想法？来 <a href="https://t.me/SnowmoonCN" target="_blank" rel="noopener">电报读者群</a> 聊聊，勘误也欢迎。</p><nav class="nav"><a href="chapter-1.html">← 第 1 章</a><a href="chapter-3.html">第 3 章 →</a></nav></main><footer>原作 © Vitalik Buterin · 中文译本以 <a href="license.html">GPL v3</a> 发布 · AI 辅助翻译，修改于 2026-09-27 · <a href="https://vitalik.eth.limo/snowmoon/">英文原文</a> · <a href="snowmoon-zh-source.zip">可编辑源文本</a> · <a href="https://t.me/SnowmoonCN">电报读者群</a></footer></body></html>

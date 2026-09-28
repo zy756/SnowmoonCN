@@ -1,0 +1,32 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Meldan, Veridia·3724 Bloomtime 15"
+    ],
+    "lines_zh": [
+      "梅尔丹，维里迪亚 · 3724 年花月 15 日"
+    ]
+  },
+  {
+    "before": 89,
+    "kind": "device",
+    "lines": [
+      "Air",
+      "CO2 ｜ 906",
+      "PM2.5 ｜ 4.4",
+      "Devices",
+      "Attested ✓ ｜ 16",
+      "Unknown ? ｜ 0"
+    ],
+    "lines_zh": [
+      "空气",
+      "CO2 ｜ 906",
+      "PM2.5 ｜ 4.4",
+      "设备",
+      "已证明 ✓ ｜ 16",
+      "未知 ? ｜ 0"
+    ]
+  }
+]

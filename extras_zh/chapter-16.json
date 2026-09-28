@@ -1,0 +1,84 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Meldan, Veridia·3724 Firemoon 25"
+    ],
+    "lines_zh": [
+      "梅尔丹，维里迪亚 · 3724 年火月 25 日"
+    ]
+  },
+  {
+    "before": 59,
+    "kind": "device",
+    "lines": [
+      "Yellow ｜ Purple",
+      "Redball captures ｜ 6 ｜ 11",
+      "Greenball player hits ｜ 9 ｜ 7",
+      "Blueball pin knockdowns ｜ 31 ｜ 23",
+      "Combined score ｜ 1674 ｜ 1771"
+    ],
+    "lines_zh": [
+      "黄队 ｜ 紫队",
+      "红球夺取 ｜ 6 ｜ 11",
+      "绿球击中球员 ｜ 9 ｜ 7",
+      "蓝球击倒球瓶 ｜ 31 ｜ 23",
+      "综合得分 ｜ 1674 ｜ 1771"
+    ]
+  },
+  {
+    "before": 62,
+    "kind": "device",
+    "lines": [
+      "Yellow ｜ Purple",
+      "Redball captures ｜ 6 ｜ 11",
+      "Greenball player hits ｜ 10 ｜ 7",
+      "Blueball pin knockdowns ｜ 31 ｜ 23",
+      "Combined score ｜ 1860 ｜ 1771"
+    ],
+    "lines_zh": [
+      "黄队 ｜ 紫队",
+      "红球夺取 ｜ 6 ｜ 11",
+      "绿球击中球员 ｜ 10 ｜ 7",
+      "蓝球击倒球瓶 ｜ 31 ｜ 23",
+      "综合得分 ｜ 1860 ｜ 1771"
+    ]
+  },
+  {
+    "before": 88,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Gladias ｜ → ｜ [Wallet 0x8f62... social recovery mode transaction request] ｜ 65129"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "格拉迪亚斯 ｜ → ｜ [钱包 0x8f62... 社交恢复模式交易请求] ｜ 65129"
+    ]
+  },
+  {
+    "before": 93,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Seila ｜ → ｜ Security question: what was the most unusual thing I did on the evening the kids came back from Vil and Daia's? ｜ 73105"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "塞拉 ｜ → ｜ 安全问题：孩子们从维尔和黛娅家回来的那天晚上，我做的最不寻常的一件事是什么？ ｜ 73105"
+    ]
+  },
+  {
+    "before": 94,
+    "kind": "device",
+    "lines": [
+      "Message ｜ ｜ To",
+      "You unplugged the screen in the restaurant when it was showing Lord Ephelion's speech. ｜ → ｜ Seila"
+    ],
+    "lines_zh": [
+      "消息 ｜ ｜ 收件人",
+      "餐厅里的屏幕在播埃菲利昂勋爵的演讲时，你把它的电源拔了。 ｜ → ｜ 塞拉"
+    ]
+  }
+]

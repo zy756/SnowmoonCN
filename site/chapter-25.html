@@ -1,0 +1,125 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第 25 章 · Snowmoon 中文版</title><meta name="description" content="Vitalik Buterin 科幻小说《Snowmoon》简体中文译本（GPL v3）">
+<link rel="stylesheet" href="style.css">
+<meta property="og:type" content="book"><meta property="og:site_name" content="Snowmoon 中文版"><meta property="og:title" content="第 25 章 · Snowmoon 中文版"><meta property="og:description" content="Vitalik Buterin 科幻小说《Snowmoon》简体中文译本：二次方投票、零知识证明、抽签选举与虚构城邦维里迪亚。">
+<meta property="og:image" content="https://book.routex.one/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://book.routex.one/og.png">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head><body>
+<header class="bar"><a href="index.html" class="home">Snowmoon · 雪月</a><a href="https://t.me/SnowmoonCN" class="tg" target="_blank" rel="noopener">电报群</a>
+<button class="theme" onclick="var d=document.documentElement,n=(d.dataset.theme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))==='dark'?'light':'dark';d.dataset.theme=n;try{localStorage.setItem('theme',n)}catch(e){}" aria-label="切换深浅色">◐</button></header>
+<main><h1>第 25 章</h1>
+<div class="dateline">帕佛盖都，泽戈 · 3724 年霜月 1 日</div>
+<p>格拉迪亚斯和泽伊坐在一间封闭的房间里，面前是一张桌子，桌面本身就是一块屏幕。屏幕上摆着四堆圆圈。</p>
+<p><span class="say" style="--h:93">“好，那我该怎么玩？”</span></p>
+<p><span class="say" style="--h:347">“你先手，挑一堆，从里面至少拿走一个圆圈。可以多拿，但至少要拿一个，而且每次只能从一堆里拿。”</span></p>
+<p><span class="say" style="--h:347">“谁拿到最后一个圆圈，谁就赢。”</span></p>
+<p>格拉迪亚斯觉得自己对这游戏毫无策略上的领悟，便决定边玩边学。</p>
+<p>他用手指点掉了左上角那一格里的一个圆圈。</p>
+<p>泽伊立刻回应，点掉了右下角那一格最上面的一个圆圈。</p>
+<p>格拉迪亚斯决定换个路数。他在左下角那一格里点掉了三个圆圈。</p>
+<p>泽伊的回应是把右下角那一格的圆圈点得只剩一个。</p>
+<p>格拉迪亚斯把左下角那一格剩下的圆圈全部点掉。泽伊只是在右上角那一格里点掉了一个。</p>
+<p>格拉迪亚斯把左上角那一格剩下的圆圈全部点掉。泽伊在右上角那一格剩下的三个里点掉了两个。</p>
+<p><span class="say" style="--h:93">“行吧，我输了。”</span>格拉迪亚斯认了。</p>
+<p>他接下来唯一能走的，就是从剩下两格中的某一格拿走最后那个圆圈。这样棋盘上会只剩一个圆圈，泽伊拿走它就赢了。</p>
+<p><span class="say" style="--h:93">“真厉害。”</span></p>
+<p><span class="say" style="--h:347">“这是我们小时候常玩的游戏，尤其是在敏彭泰这类更新潮的玩意儿出现之前。”</span></p>
+<p><span class="say" style="--h:93">“那接下来是不是该你告诉我独门秘诀了？”</span></p>
+<p><span class="say" style="--h:347">“你真了解我。确实有秘诀，是个很简单的算法。需要心算，但只要学会了，算的时候不出错，那么只要让你来选先手还是后手，你就永远不会输。”</span></p>
+<p><span class="say" style="--h:93">“那快说。”</span></p>
+<p><span class="say" style="--h:347">“把每一格圆圈数做异或。也就是说，把每个数写成二进制。对每一位，数一数这一位上有几个 1。如果 1 的个数是奇数，新数的这一位就写 1；否则写 0。我们把这个数叫作这盘棋的异或和。”</span></p>
+<p><span class="say" style="--h:93">“等等，慢点，举个例子。”</span></p>
+<p><span class="say" style="--h:347">“就拿我们开局的那盘来说。几格的数分别是 3、4、10、13。”</span></p>
+<p><span class="say" style="--h:93">“好。”</span></p>
+<p><span class="say" style="--h:347">“换成二进制是多少？”</span></p>
+<p><span class="say" style="--h:93">“11、100、1010，还有……等一下，1101？”</span></p>
+<p><span class="say" style="--h:347">“对！不过我们补几个零，让它们一样长，再写下来。”</span></p>
+<p>他打开手持设备，把四个数排成方阵写了下来。</p>
+<div class="device"><div>0011</div><div>0100</div><div>1010</div><div>1101</div></div>
+<p><span class="say" style="--h:347">“现在，一列一列地数。”</span></p>
+<p><span class="say" style="--h:93">“每一列都有两个 1。是偶数。所以异或和……每一位都是零，那就是零？”</span></p>
+<p><span class="say" style="--h:347">“完全正确。现在，还记得你第一步走的什么吗？”</span></p>
+<p><span class="say" style="--h:93">“我把第一个数从三减到了二。”</span></p>
+<p><span class="say" style="--h:347">“没错。”</span></p>
+<div class="device"><div>0010</div><div>0100</div><div>1010</div><div>1101</div></div>
+<p><span class="say" style="--h:347">“现在异或和是多少？”</span></p>
+<p><span class="say" style="--h:93">“最低位现在只有一个 1，变成奇数了，所以是 1？”</span></p>
+<p><span class="say" style="--h:347">“正是。那还记得我是怎么走的吗？”</span></p>
+<p><span class="say" style="--h:93">“抱歉，我忘了。”</span></p>
+<p><span class="say" style="--h:347">“我从最后一个数里拿掉一个，把它从十三减到了十二。”</span></p>
+<div class="device"><div>0010</div><div>0100</div><div>1010</div><div>1100</div></div>
+<p><span class="say" style="--h:93">“哦，我明白了！异或和又回到零了！”</span></p>
+<p><span class="say" style="--h:347">“就是这样。所以每次轮到你走的时候，异或和一开始都是零，而你不管怎么走，只能把它变成非零。可一旦它不是零，我就总能找到一步棋把它重新归零。”</span></p>
+<p><span class="say" style="--h:93">“等等，真是这样吗？”</span></p>
+<p><span class="say" style="--h:347">“看异或和里最高的那个 1 在哪一位。在这一位上是 1 的圆圈数一定有奇数个，也就是说至少有一个。在那一格里，把它的数从 N 改成 N 与异或和做异或的结果。这永远是在减少，因为有一位从 1 翻成了 0，而其他发生变化的位都比它低。”</span></p>
+<p><span class="say" style="--h:93">“我……好像懂了？”</span></p>
+<p><span class="say" style="--h:347">“所以每次你走，都只能把异或和从零变成非零。轮到我走，我就把它归零。而最后一步，也就是清空棋盘的那一步，会让异或和变成零。这就意味着，致胜的那一步永远由我来走。”</span></p>
+<p><span class="say" style="--h:347">“当然，如果开局的异或和不是零，那我先手就能赢。但如果开局的异或和是零，那我作为后手就稳赢。”</span></p>
+<p><span class="say" style="--h:93">“有意思！”</span></p>
+<p>格拉迪亚斯往后一靠，思索了片刻。</p>
+<p><span class="say" style="--h:93">“我还从没见过对后手有利的游戏。”</span></p>
+<p><span class="say" style="--h:347">“也不一定对后手有利！只有开局异或和为零的时候才对后手有利。不过，对后手有利的游戏比你想象的要常见。”</span></p>
+<p><span class="say" style="--h:93">“通常都会有某个位置、某块地盘特别值钱，先手占优，因为他能先抢到。”</span></p>
+<p><span class="say" style="--h:347">“你能想到，是什么样的深层原因会让一个游戏对后手有利吗？”</span></p>
+<p><span class="say" style="--h:93">“什么意思？”</span></p>
+<p><span class="say" style="--h:347">“后手拥有什么根本性的优势？”</span></p>
+<p>格拉迪亚斯又停下来想了想。</p>
+<p><span class="say" style="--h:93">“轮到他们走的时候，他们知道的更多。”</span></p>
+<p><span class="say" style="--h:347">“没错。”</span></p>
+<p><span class="say" style="--h:93">“在这盘棋里，我走一步，你就能根据我这一步来应对，所以你总是清楚哪一步能让局面恢复平衡。”</span></p>
+<p><span class="say" style="--h:347">“正是。”</span></p>
+<p>这一回轮到泽伊沉默了。过了一会儿，格拉迪亚斯又开口了。</p>
+<p><span class="say" style="--h:93">“其实吧，就算你是先手，你大概也会赢。”</span></p>
+<p><span class="say" style="--h:347">“为什么这么说？”</span></p>
+<p><span class="say" style="--h:93">“因为我不知道这个窍门。在你眼里，这是一个有数学结构的东西，它有一个理想状态——每次轮到我走时异或和都是零的状态。一旦你到达那个状态，就永远锁定了。可在我眼里，它就是一团混沌。”</span></p>
+<p><span class="say" style="--h:347">“确实如此。熵，永远取决于观察者的眼睛。”</span></p>
+<p><span class="say" style="--h:347">“这个游戏是由不同层次的规则叠起来的一座塔，”</span>泽伊接着说，<span class="say" style="--h:347">“最底层，游戏是不可逆的：每一步你都必须至少拿走一个圆圈。往上一层是异或和，而它是可逆的。不管你做什么改变，我总能把它改回来。可再往上一层，异或和平衡时恰好轮到你走——这件事才是不可逆的。一旦你让棋局滑进这个状态，只要对手懂窍门，你就再也出不来了。”</span></p>
+<p>泽伊又沉默了。片刻之后，他换了个坐姿，示意热身结束，真正的问题要来了。</p>
+<p><span class="say" style="--h:347">“那么，格拉迪亚斯，下一个问题。争夺维里迪亚的这场较量，是对先手有利的游戏，还是对后手有利的游戏？”</span></p>
+<p>格拉迪亚斯睁大了眼睛，显然没料到话题会转到这个方向。</p>
+<p><span class="say" style="--h:93">“什么意思？”</span></p>
+<p><span class="say" style="--h:347">“北极方先动的手。他们建立或者接管了间谍基础设施。他们对维里迪亚的官员施压、收买、威胁。他们发动了一场高度协调的行动，企图连舵手会都拿下，让它听命于他们，引导维里迪亚社会放弃抵抗。最后，他们进攻了红郡，接着又是北林。他们会赢，是因为已经占住了要害位置？还是我们会赢，因为我们有反制策略？”</span></p>
+<p><span class="say" style="--h:93">“我明白了……”</span></p>
+<p><span class="say" style="--h:93">“在战场上，眼下是他们占优，而且还谈不上什么先手原因——纯粹是他们的技术比我们好。但在争夺各个机构的较量里，我们有反制策略。我们可以玩和他们一样的游戏，但我们占优，因为我们追求的目标，恰恰是我们要去操纵的大多数人真正想要的。”</span></p>
+<p><span class="say" style="--h:347">“如果你操纵别人去做一件本就符合他利益的事，而且只是把这一点讲明白给他看，这叫什么？”</span></p>
+<p><span class="say" style="--h:93">“听起来答案特别简单。”</span></p>
+<p><span class="say" style="--h:347">“说服。”</span></p>
+<p><span class="say" style="--h:93">“那么我们要说服谁，说服他们做什么？”</span></p>
+<p><span class="say" style="--h:347">“你来说。”</span></p>
+<p>格拉迪亚斯又停了下来。终于，他开口了。</p>
+<p><span class="say" style="--h:93">“法院怎么样？”</span></p>
+<p><span class="say" style="--h:347">“接着说。”</span></p>
+<p><span class="say" style="--h:93">“德尔瓦特他们那伙人对舵手会搞的那种渗透，我们也对法院来一遍。然后说服他们去做……某件能把整个局面扭转过来的事。”</span></p>
+<p><span class="say" style="--h:347">“你学得很快，格拉迪亚斯。”</span></p>
+<p><span class="say" style="--h:347">“那么，为什么我们在这里占优？”</span></p>
+<p><span class="say" style="--h:93">“因为我们做的事是真正对维里迪亚有好处的。德尔瓦特要说服舵手会的成员去违背维里迪亚的利益，就得对每个人讲不一样的说辞，按各人的价值观和弱点量身定做，此外还得或明或暗地威胁他们。我们用不着这样。我们只需要提出一个明确的诉求，然后把事情原原本本地讲出来。撒谎的时候很容易露馅：谎言本质上是一个模拟出来的虚拟宇宙，而要让一个虚拟宇宙前后自洽，不把整个宇宙都模拟一遍是非常难的。可真话天然就是自洽的。所以我们讲真话。”</span></p>
+<p><span class="say" style="--h:347">“好，下一个问题。我们对法院的诉求是什么？”</span></p>
+<p><span class="say" style="--h:93">“找维尔多谈谈吧。”</span></p>
+<p><span class="say" style="--h:347">“你来安排通话。我赶紧联系一下丹，问问我们在维里迪亚的侦察进展如何。”</span></p>
+<p>格拉迪亚斯点了点手表。</p>
+<div class="device"><table><tr><td class="s">消息</td><td class="s"></td><td class="s">收件人</td><td class="s">时间</td></tr><tr><td class="s">[请求通话]</td><td class="s">→</td><td class="s">维尔多参议员</td><td class="s">78145</td></tr></table></div>
+<p>片刻之后，维尔多接通了。</p>
+<p><span class="say" style="--h:293">“你好啊，格拉迪亚斯！”</span></p>
+<p><span class="say" style="--h:93">“参议员，我们有个新想法。”</span></p>
+<p><span class="say" style="--h:293">“什么想法？”</span></p>
+<p><span class="say" style="--h:93">“北极人想对舵手会做的事，我们要对法院做一遍。找出足够多的法官，说服他们去做一件能让我们像样地反击北极人的事。”</span></p>
+<p>泽伊看准时机加入了对话。</p>
+<p><span class="say" style="--h:347">“大部分管摄像头的管理员刚刚装了我们的更新。更新还会回传每台摄像头的现状；结果发现，有一大批早就被北极人控制了。所以我们现在手里有大量后门，已经锁定了十几位法官，还顺手清掉了他们的一些后门——不过这也意味着，我们现在得更加小心，别再暴露自己。所以这场游戏我们玩得不比北极人差——很可能还更好，因为我们的目标，正是维里迪亚的法官们本该想要的目标。”</span></p>
+<p><span class="say" style="--h:93">“所以，我们得先想清楚，到底要说服他们做什么。”</span></p>
+<p>维尔多似乎笑了，笑声里更多的是赞赏。</p>
+<p><span class="say" style="--h:293">“我就知道你们能搞出点名堂来。”</span></p>
+<p><span class="say" style="--h:293">“让我想想……”</span></p>
+<p>沉默了好一会儿。然后，维尔多开始慢慢地说。</p>
+<p><span class="say" style="--h:293">“好，我有一个疯狂的主意。”</span></p>
+<p><span class="say" style="--h:293">“在维里迪亚，最基本的法律之一，就是军队必须保卫国家。这是第十四条根本法，白纸黑字写在文件里。在北林，他们彻彻底底没能保卫国家，事后甚至几乎没打算做任何像样的改革。”</span></p>
+<p><span class="say" style="--h:293">“因此，维里迪亚军方是违法者。因此，法院可以撤他们的职。而如果议会想阻拦，那么，嗯，议会在法律上是军队的集体首脑，所以法院也可以把议会撤掉。”</span></p>
+<p><span class="say" style="--h:93">“法院……有这么大的权力？”</span></p>
+<p><span class="say" style="--h:293">“原则上，法院能做的事情很多。”</span></p>
+<p>维尔多顿了顿，决定岔开去谈点哲学。</p>
+<p><span class="say" style="--h:293">“你看，格拉迪亚斯，法律不像密码学网络里运行的计算机程序。法律的目标，并不是要消除人们判断世间是非时的主观性。相反，它的目标是给这种主观性一个结构——把它引进一条条渠道，让它更可预测、更有焦点，这样每个案子就不必把什么对人类是好、什么对人类是坏这些根本问题重新打一遍官司。”</span></p>
+<p><span class="say" style="--h:293">“在普通案件里，法律往往确实接近于程序化，而这正是它的意义所在。一桩生意纠纷打到法院，争的不是谁是好人，而是一方是否实施了法律所定义的欺诈行为。可在任何非常案件里，仍然保留着很大的弹性——事实上，今天任何已有判例可循的情形，在过去某个时候也都曾是未知的、有弹性的。”</span></p>
+<p><span class="say" style="--h:293">“正是这种潜在的弹性，给了法院做出正确裁决的空间。人不是为范畴而造的，范畴是为人而造的。宣布整个军方违背了它神圣的职责，这很疯狂。疯狂到我认为维里迪亚历史上从没有人尝试过哪怕沾一点边的事。可维里迪亚眼下也正处在一个疯狂的时代。所以此时此刻，这样一个疯狂的判决，恰恰是维里迪亚所需要的。”</span></p>
+<p><span class="say" style="--h:293">“要赢下这一局，可不是把我刚才这番论证大张旗鼓地公之于众，法官们一看，觉得当然没错，就立刻照办。你得去说服他们。你得跟他们坐下来谈。向他们解释，这不仅是一个站得住脚的法律论证，而且对维里迪亚有好处。向他们解释，撤换整个军方领导层——必要时连议会一起撤换——会拯救维里迪亚，而不是让它陷入更大的混乱。还要让他们相信，会有足够多的其他法官跟进，而当他们做出裁决时，公众也会跟进。而这一切都要先悄无声息，再骤然发动，让北极人来不及反应。”</span></p>
+<p><span class="say" style="--h:93">“我喜欢的是，我们甚至都不用说服你这个计划值得一试。”</span></p>
+<p><span class="say" style="--h:293">“我在议会开会时听到的其他计划，只有两种：一种是继续照老样子干，只不过‘再加把劲’；另一种是干脆投降。依我看，这两种的成功概率比这个还低。”</span></p><p class="cta">读到这里有想法？来 <a href="https://t.me/SnowmoonCN" target="_blank" rel="noopener">电报读者群</a> 聊聊，勘误也欢迎。</p><nav class="nav"><a href="chapter-24.html">← 第 24 章</a><a href="chapter-26.html">第 26 章 →</a></nav></main><footer>原作 © Vitalik Buterin · 中文译本以 <a href="license.html">GPL v3</a> 发布 · AI 辅助翻译，修改于 2026-09-27 · <a href="https://vitalik.eth.limo/snowmoon/">英文原文</a> · <a href="snowmoon-zh-source.zip">可编辑源文本</a> · <a href="https://t.me/SnowmoonCN">电报读者群</a></footer></body></html>

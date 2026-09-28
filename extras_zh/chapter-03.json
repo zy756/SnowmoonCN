@@ -1,0 +1,86 @@
+[
+  {
+    "before": 1,
+    "kind": "dateline",
+    "lines": [
+      "Meldan, Veridia·3724 Snowmoon 8"
+    ],
+    "lines_zh": [
+      "梅尔丹，维里迪亚 · 3724 年雪月 8 日"
+    ]
+  },
+  {
+    "before": 12,
+    "kind": "device",
+    "lines": [
+      "From a comfortable Veridia to a strong Veridia"
+    ],
+    "lines_zh": [
+      "从安逸的维里迪亚，走向强大的维里迪亚"
+    ]
+  },
+  {
+    "before": 41,
+    "kind": "device",
+    "lines": [
+      "From ｜ ｜ Message ｜ Time",
+      "Seila ｜ → ｜ [4 images] ｜ 44029"
+    ],
+    "lines_zh": [
+      "发件人 ｜ ｜ 消息 ｜ 时间",
+      "塞拉 ｜ → ｜ [4 张图片] ｜ 44029"
+    ]
+  },
+  {
+    "before": 73,
+    "kind": "device",
+    "lines": [
+      "Environment",
+      "Health and medicine",
+      "Education",
+      "Art",
+      "All research outputs and tooling done by GPH are open source!",
+      "Partially funded by Veridian Quadratic Funding"
+    ],
+    "lines_zh": [
+      "环境",
+      "健康与医疗",
+      "教育",
+      "艺术",
+      "大梅港的所有研究成果和工具全部开源！",
+      "部分资金来自维里迪亚二次方资助"
+    ]
+  },
+  {
+    "before": 93,
+    "kind": "device",
+    "lines": [
+      "Air",
+      "CO2 ｜ 965",
+      "PM2.5 ｜ 22.1",
+      "Devices",
+      "Attested ✓ ｜ 55",
+      "Unknown ? ｜ 6"
+    ],
+    "lines_zh": [
+      "空气",
+      "CO2 ｜ 965",
+      "PM2.5 ｜ 22.1",
+      "设备",
+      "已证明 ✓ ｜ 55",
+      "未知 ? ｜ 6"
+    ]
+  },
+  {
+    "before": 145,
+    "kind": "device",
+    "lines": [
+      "Gladias",
+      "Mov"
+    ],
+    "lines_zh": [
+      "格拉迪亚斯",
+      "莫夫"
+    ]
+  }
+]
